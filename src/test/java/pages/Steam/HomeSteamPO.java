@@ -1,8 +1,7 @@
-package pages;
+package pages.Steam;
 
 
 import Suporte.BasePage;
-import Suporte.CreateDriver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ccebf2e8-52ed-46c2-b2a6-3814c680d9ca" name="Changes" comment="" />
+    <list default="true" id="ccebf2e8-52ed-46c2-b2a6-3814c680d9ca" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/Gmail/CaixaDeEntradaPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/Gmail/LoginPageGmailPO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Suporte/CreateDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Suporte/CreateDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/BuscarNoMercadoDaComunidadePO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Steam/BuscarNoMercadoDaComunidadePO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomeSteamPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Steam/HomeSteamPO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Steam/LoginPO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/MercadoComunidadePO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Steam/MercadoComunidadePO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ButterflyKnifeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ButterflyKnifeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Suporte/CreateDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Suporte/CreateDriver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/BuscarNoMercadoDaComunidadePO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/HomeSteamPO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/LoginPO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/MercadoComunidadePO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/ButterflyKnifeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/ButterflyKnifeTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,6 +62,7 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "C:/Users/felip/Documents/ProjetoSteam",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",

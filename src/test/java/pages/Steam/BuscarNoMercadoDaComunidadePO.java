@@ -1,4 +1,4 @@
-package pages;
+package pages.Steam;
 
 import Suporte.BasePage;
 import org.openqa.selenium.By;
