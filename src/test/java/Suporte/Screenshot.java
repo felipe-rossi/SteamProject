@@ -1,7 +1,9 @@
 package Suporte;
 
+import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.image.BufferedImage;
+import java.io.File;
 
 public class Screenshot {
 
@@ -11,8 +13,7 @@ public class Screenshot {
             Rectangle rct = new Rectangle(1920,1080);
 
             BufferedImage screenshot = rb.createScreenCapture(rct);
-
-
+            ImageIO.write(screenshot,"PNG", new File("D:\\Prints\\" + GerarDataAtual.gerarDataeHora() + ".png"));
 
 
         }catch (Exception e){

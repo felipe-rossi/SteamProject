@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ccebf2e8-52ed-46c2-b2a6-3814c680d9ca" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Suporte/GerarDataAtual.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Suporte/Screenshot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Suporte/Screenshot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/Gmail/LoginPageGmailPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Gmail/LoginPageOutlookPO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/Steam/BuscarNoMercadoDaComunidadePO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Steam/BuscarNoMercadoDaComunidadePO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/Steam/LoginPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Steam/LoginPO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ButterflyKnifeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ButterflyKnifeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
