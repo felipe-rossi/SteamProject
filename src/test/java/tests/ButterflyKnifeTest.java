@@ -40,7 +40,7 @@ public class ButterflyKnifeTest {
 
     @After
     public void tearDown(){
-        Screenshot.takeScrennshot();
+        //Screenshot.takeScrennshot();
        driver.quit();
     }
 }

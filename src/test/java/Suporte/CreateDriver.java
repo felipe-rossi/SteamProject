@@ -12,14 +12,16 @@ import java.time.Duration;
 
 
 public class CreateDriver {
+
     public static WebDriver createWebdriver() throws MalformedURLException {
 
-         DesiredCapabilities caps = new DesiredCapabilities();
-         WebDriver driver = new RemoteWebDriver(new URL("http://172.31.34.98:8888/wd/hub"), caps);
-         driver.manage().window().maximize();
-         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
-         driver.get("https://store.steampowered.com");
+        ChromeOptions chromeOptions = new ChromeOptions();
+        chromeOptions.setCapability("platformName", "Windows");
 
+        WebDriver driver = new RemoteWebDriver(new URL("http://172.31.34.98:4444/wd/hub"), chromeOptions);
+        driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+        driver.get("https://store.steampowered.com");
 
         return driver;
 
