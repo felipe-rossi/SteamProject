@@ -3,6 +3,7 @@ package tests;
 import Suporte.CreateDriver;
 import Suporte.Screenshot;
 import org.junit.After;
+import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
@@ -24,13 +25,14 @@ public class ButterflyKnifeTest {
 
     @Test
     public void ValidarPrecoDaFacaButterfly(){
-            new HomeSteamPO(driver)
+            boolean comprarSkin = new HomeSteamPO(driver)
             .clicarEmIniciarSessao()
             .realizarLogin("feliperossisteam","EL3+X]r+1r")
             .clicarNaOpcaoMercadoComunidade()
             .escolherProdutoQueVaiSerPesquisado()
             .ordernarPeloMenorPreco()
             .validarValorDaSkin();
+        Assert.assertEquals(true, comprarSkin);
     }
 
 

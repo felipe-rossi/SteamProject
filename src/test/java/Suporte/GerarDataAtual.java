@@ -10,7 +10,7 @@ public class GerarDataAtual {
 
         LocalDateTime data = LocalDateTime.now();
 
-        String dataFormatada = data.format(DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss"));
+        String dataFormatada = data.format(DateTimeFormatter.ofPattern("dd-MM-yyyy HH_mm_ss"));
 
         return dataFormatada;
     }
