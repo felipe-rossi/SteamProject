@@ -4,25 +4,22 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.time.Duration;
 
 
 public class CreateDriver {
+    public static WebDriver createWebdriver() throws MalformedURLException {
 
-    public static WebDriver createWebdriver(){
-        System.setProperty("Webdriver.chrome.driver","chromedriver.exe");
+         DesiredCapabilities caps = new DesiredCapabilities();
+         WebDriver driver = new RemoteWebDriver(new URL("http://172.31.34.98:8888/wd/hub"), caps);
+         driver.manage().window().maximize();
+         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+         driver.get("https://store.steampowered.com");
 
-        ChromeOptions option = new ChromeOptions();
-        option.addArguments("--disable-web-security");
-       // option.addArguments("--user-data-dir");
-        option.addArguments("--allow-running-insecure-content");
-
-        WebDriver driver = new ChromeDriver(option);
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-
-        driver.get("https://store.steampowered.com");
 
         return driver;
 

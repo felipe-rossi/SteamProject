@@ -6,12 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ccebf2e8-52ed-46c2-b2a6-3814c680d9ca" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Suporte/GerarDataAtual.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Suporte/GerarDataAtual.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/Steam/BuscarNoMercadoDaComunidadePO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Steam/BuscarNoMercadoDaComunidadePO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/Steam/MercadoComunidadePO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Steam/MercadoComunidadePO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Suporte/CreateDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Suporte/CreateDriver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/ButterflyKnifeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ButterflyKnifeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/Steam/BuscarNoMercadoDaComunidadePO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/Steam/BuscarNoMercadoDaComunidadePO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/ButterflyKnifeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/ButterflyKnifeTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +50,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/felip/Documents/ProjetoSteam&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/felip/Downloads/junit-browserstack-master/junit-browserstack-master/junit-5&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,

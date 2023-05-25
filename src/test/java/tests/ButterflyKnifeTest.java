@@ -9,12 +9,14 @@ import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import pages.Steam.HomeSteamPO;
 
+import java.net.MalformedURLException;
+
 public class ButterflyKnifeTest {
 
     public static WebDriver driver;
 
     @BeforeClass
-    public static void setUp(){
+    public static void setUp() throws MalformedURLException {
         driver = CreateDriver.createWebdriver();
 
         /*driver.get("https://login.live.com/");
