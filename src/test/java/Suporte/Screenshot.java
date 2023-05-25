@@ -5,7 +5,7 @@ import java.awt.image.BufferedImage;
 
 public class Screenshot {
 
-    public void takeScrennshot(){
+    public static void takeScrennshot(){
         try{
             Robot rb = new Robot();
             Rectangle rct = new Rectangle(1920,1080);

@@ -5,22 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ccebf2e8-52ed-46c2-b2a6-3814c680d9ca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/Gmail/CaixaDeEntradaPO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/Gmail/LoginPageGmailPO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Suporte/CreateDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Suporte/CreateDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/BuscarNoMercadoDaComunidadePO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Steam/BuscarNoMercadoDaComunidadePO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomeSteamPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Steam/HomeSteamPO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Steam/LoginPO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/MercadoComunidadePO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Steam/MercadoComunidadePO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Suporte/Screenshot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Suporte/Screenshot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/Gmail/LoginPageGmailPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Gmail/LoginPageOutlookPO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/Steam/BuscarNoMercadoDaComunidadePO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Steam/BuscarNoMercadoDaComunidadePO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/Steam/LoginPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Steam/LoginPO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/ButterflyKnifeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ButterflyKnifeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Suporte/CreateDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Suporte/CreateDriver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/BuscarNoMercadoDaComunidadePO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/HomeSteamPO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/LoginPO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/MercadoComunidadePO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/ButterflyKnifeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/ButterflyKnifeTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,20 +46,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/felip/Documents/ProjetoSteam",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/felip/Documents/ProjetoSteam&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\felip\DevOps\tasks-functional-tests\ProjetoSteam\src" />
