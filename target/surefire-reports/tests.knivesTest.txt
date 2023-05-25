@@ -1,0 +1,37 @@
+-------------------------------------------------------------------------------
+Test set: tests.knivesTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 5, Errors: 1, Skipped: 0, Time elapsed: 136.712 s <<< FAILURE! - in tests.knivesTest
+validarPrecoDaFacaButterfly(tests.knivesTest)  Time elapsed: 130.75 s  <<< FAILURE!
+java.lang.AssertionError: expected:<true> but was:<false>
+	at tests.knivesTest.validarPrecoDaFacaButterfly(knivesTest.java:35)
+
+validarPrecoDaFacaBowie(tests.knivesTest)  Time elapsed: 136.387 s  <<< FAILURE!
+java.lang.AssertionError: expected:<true> but was:<false>
+	at tests.knivesTest.validarPrecoDaFacaBowie(knivesTest.java:84)
+
+validarPrecoDaFacaKarambit(tests.knivesTest)  Time elapsed: 136.46 s  <<< FAILURE!
+java.lang.AssertionError: expected:<true> but was:<false>
+	at tests.knivesTest.validarPrecoDaFacaKarambit(knivesTest.java:48)
+
+validarPrecoDaFacaBaioneta(tests.knivesTest)  Time elapsed: 119.218 s  <<< ERROR!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a class="submenuitem" href="https://steamcommunity.com/market/">...</a> is not clickable at point (790, 167). Other element would receive the click: <span class="pulldown">...</span>
+  (Session info: chrome=113.0.5672.127)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows Server 2022', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [14d35232160ed3d2d2622ca3b44e06b9, clickElement {id=F028E40F2DAED94E67B09E010D10FC27_element_107}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:53350}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 14d35232160ed3d2d2622ca3b44...}
+Element: [[RemoteWebDriver: chrome on windows (14d35232160ed3d2d2622ca3b44e06b9)] -> link text: MERCADO]
+Session ID: 14d35232160ed3d2d2622ca3b44e06b9
+	at tests.knivesTest.validarPrecoDaFacaBaioneta(knivesTest.java:56)
+
+validarPrecoDaFacaGut(tests.knivesTest)  Time elapsed: 136.683 s  <<< FAILURE!
+java.lang.AssertionError: expected:<true> but was:<false>
+	at tests.knivesTest.validarPrecoDaFacaGut(knivesTest.java:96)
+
+validarPrecoDaFacaBaionetaM9(tests.knivesTest)  Time elapsed: 136.256 s  <<< FAILURE!
+java.lang.AssertionError: expected:<true> but was:<false>
+	at tests.knivesTest.validarPrecoDaFacaBaionetaM9(knivesTest.java:72)
+

@@ -1,6 +1,7 @@
 package tests;
 
 import Suporte.CreateDriver;
+import com.beust.jcommander.Parameters;
 import org.junit.*;
 import org.openqa.selenium.WebDriver;
 import pages.Steam.HomeSteamPO;
@@ -31,8 +32,9 @@ public class knivesTest {
             .escolherProdutoQueVaiSerPesquisado("tag_weapon_knife_butterfly")
             .ordernarPeloMenorPreco()
             .validarValorDaSkin();
-        Assert.assertEquals(false, comprarSkin);
+        Assert.assertEquals(true, comprarSkin);
     }
+
 
     @Test
     public void validarPrecoDaFacaKarambit(){
@@ -43,7 +45,55 @@ public class knivesTest {
                 .escolherProdutoQueVaiSerPesquisado("tag_weapon_knife_karambit")
                 .ordernarPeloMenorPreco()
                 .validarValorDaSkin();
-        Assert.assertEquals(false, comprarSkin);
+        Assert.assertEquals(true, comprarSkin);
+    }
+
+    @Test
+    public void validarPrecoDaFacaBaioneta(){
+        boolean comprarSkin = new HomeSteamPO(driver)
+                .clicarEmIniciarSessao()
+                .realizarLogin("feliperossisteam","EL3+X]r+1r")
+                .clicarNaOpcaoMercadoComunidade()
+                .escolherProdutoQueVaiSerPesquisado("tag_weapon_bayonet")
+                .ordernarPeloMenorPreco()
+                .validarValorDaSkin();
+        Assert.assertEquals(true, comprarSkin);
+    }
+
+    @Test
+    public void validarPrecoDaFacaBaionetaM9(){
+        boolean comprarSkin = new HomeSteamPO(driver)
+                .clicarEmIniciarSessao()
+                .realizarLogin("feliperossisteam","EL3+X]r+1r")
+                .clicarNaOpcaoMercadoComunidade()
+                .escolherProdutoQueVaiSerPesquisado("tag_weapon_knife_m9_bayonet")
+                .ordernarPeloMenorPreco()
+                .validarValorDaSkin();
+        Assert.assertEquals(true, comprarSkin);
+    }
+
+    @Test
+    public void validarPrecoDaFacaBowie(){
+        boolean comprarSkin = new HomeSteamPO(driver)
+                .clicarEmIniciarSessao()
+                .realizarLogin("feliperossisteam","EL3+X]r+1r")
+                .clicarNaOpcaoMercadoComunidade()
+                .escolherProdutoQueVaiSerPesquisado("tag_weapon_knife_survival_bowie")
+                .ordernarPeloMenorPreco()
+                .validarValorDaSkin();
+        Assert.assertEquals(true, comprarSkin);
+    }
+
+    @Test
+    public void validarPrecoDaFacaGut(){
+        boolean comprarSkin = new HomeSteamPO(driver)
+                .clicarEmIniciarSessao()
+                .realizarLogin("feliperossisteam","EL3+X]r+1r")
+                .clicarNaOpcaoMercadoComunidade()
+                .escolherProdutoQueVaiSerPesquisado("tag_weapon_knife_gut")
+                .ordernarPeloMenorPreco()
+                .validarValorDaSkin();
+        Assert.assertEquals(true, comprarSkin);
     }
 
     @After

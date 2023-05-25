@@ -1,10 +1,10 @@
 Suporte\Screenshot.class
-tests\ButterflyKnifeTest.class
 pages\Gmail\CaixaDeEntradaPO.class
 Suporte\BasePage.class
 pages\Steam\HomeSteamPO.class
 pages\Steam\BuscarNoMercadoDaComunidadePO.class
 pages\Steam\LoginPO.class
+tests\knivesTest.class
 Suporte\CreateDriver.class
 pages\Gmail\LoginPageOutlookPO.class
 Suporte\GerarDataAtual.class
