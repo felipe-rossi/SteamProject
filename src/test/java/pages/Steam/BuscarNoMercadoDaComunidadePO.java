@@ -16,7 +16,7 @@ public class BuscarNoMercadoDaComunidadePO extends BasePage {
     }
 
     public WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-    public boolean comprarSkin = false;
+    public boolean comprarSkin;
 
     public BuscarNoMercadoDaComunidadePO ordernarPeloMenorPreco(){
         WebElement ordernarpreco = driver.findElement(By.xpath("//*[@data-sorttype='price']"));
@@ -26,6 +26,7 @@ public class BuscarNoMercadoDaComunidadePO extends BasePage {
     }
 
     public boolean validarValorDaSkin(){
+        comprarSkin = false;
         wait.until(ExpectedConditions.textToBe(By.xpath("//span[@class='market_sort_arrow']"),"▲"));
 
         try{

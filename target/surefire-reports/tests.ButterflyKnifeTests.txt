@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: tests.ButterflyKnifeTests
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 49.959 s <<< FAILURE! - in tests.ButterflyKnifeTests
+ValidarPrecoDaFacaButterfly(tests.ButterflyKnifeTests)  Time elapsed: 30.116 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"link text","selector":"iniciar sessão"}
+  (Session info: chrome=113.0.5672.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows Server 2022', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [e0dc2e3a70648517454f4ffe5c6eddda, findElement {using=link text, value=iniciar sessão}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:52028}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: e0dc2e3a70648517454f4ffe5c6...}
+Session ID: e0dc2e3a70648517454f4ffe5c6eddda
+	at tests.ButterflyKnifeTests.ValidarPrecoDaFacaButterfly(ButterflyKnifeTests.java:30)
+

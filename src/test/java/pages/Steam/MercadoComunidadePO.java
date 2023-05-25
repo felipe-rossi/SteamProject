@@ -17,7 +17,7 @@ public class MercadoComunidadePO extends BasePage {
 
     public WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
 
-    public BuscarNoMercadoDaComunidadePO escolherProdutoQueVaiSerPesquisado(){
+    public BuscarNoMercadoDaComunidadePO escolherProdutoQueVaiSerPesquisado(String produto){
         WebElement btnExibirOpcoesDetalhadas = driver.findElement(By.xpath("//*[contains(text(), 'Exibir opções avançadas...')]"));
         btnExibirOpcoesDetalhadas.click();
 
@@ -28,7 +28,7 @@ public class MercadoComunidadePO extends BasePage {
         campoSelecioneJogo.findElement(By.id("app_option_730")).click();
 
         WebElement campoSelecioneArma = driver.findElement(By.name("category_730_Weapon[]"));
-        new Select(campoSelecioneArma).selectByValue("tag_weapon_knife_butterfly");
+        new Select(campoSelecioneArma).selectByValue(produto);
 
         List <WebElement> btnBuscar = driver.findElements(By.xpath("//*[contains(text(), 'Buscar')]"));
         btnBuscar.get(2).click();

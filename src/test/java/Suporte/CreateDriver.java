@@ -13,7 +13,7 @@ import java.time.Duration;
 
 public class CreateDriver {
 
-    public static WebDriver createWebdriver() throws MalformedURLException {
+    public WebDriver createWebdriver() throws MalformedURLException {
 
         ChromeOptions chromeOptions = new ChromeOptions();
         chromeOptions.setCapability("platformName", "Windows");
