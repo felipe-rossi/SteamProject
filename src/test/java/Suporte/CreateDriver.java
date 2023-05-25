@@ -21,7 +21,7 @@ public class CreateDriver {
         WebDriver driver = new RemoteWebDriver(new URL("http://172.31.34.98:4444/wd/hub"), chromeOptions);
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
-        driver.get("https://store.steampowered.com");
+        driver.get("https://store.steampowered.com/?l=brazilian");
 
         return driver;
 
