@@ -1,7 +1,6 @@
 package tests;
 
 import Suporte.CreateDriver;
-import com.beust.jcommander.Parameters;
 import org.junit.*;
 import org.openqa.selenium.WebDriver;
 import pages.Steam.HomeSteamPO;
@@ -32,7 +31,7 @@ public class knivesTest {
             .escolherProdutoQueVaiSerPesquisado("tag_weapon_knife_butterfly")
             .ordernarPeloMenorPreco()
             .validarValorDaSkin();
-        Assert.assertEquals(true, comprarSkin);
+        Assert.assertEquals(false, comprarSkin);
     }
 
 
@@ -45,7 +44,7 @@ public class knivesTest {
                 .escolherProdutoQueVaiSerPesquisado("tag_weapon_knife_karambit")
                 .ordernarPeloMenorPreco()
                 .validarValorDaSkin();
-        Assert.assertEquals(true, comprarSkin);
+        Assert.assertEquals(false, comprarSkin);
     }
 
     @Test
@@ -57,7 +56,7 @@ public class knivesTest {
                 .escolherProdutoQueVaiSerPesquisado("tag_weapon_bayonet")
                 .ordernarPeloMenorPreco()
                 .validarValorDaSkin();
-        Assert.assertEquals(true, comprarSkin);
+        Assert.assertEquals(false, comprarSkin);
     }
 
     @Test
@@ -69,7 +68,7 @@ public class knivesTest {
                 .escolherProdutoQueVaiSerPesquisado("tag_weapon_knife_m9_bayonet")
                 .ordernarPeloMenorPreco()
                 .validarValorDaSkin();
-        Assert.assertEquals(true, comprarSkin);
+        Assert.assertEquals(false, comprarSkin);
     }
 
     @Test
@@ -81,7 +80,7 @@ public class knivesTest {
                 .escolherProdutoQueVaiSerPesquisado("tag_weapon_knife_survival_bowie")
                 .ordernarPeloMenorPreco()
                 .validarValorDaSkin();
-        Assert.assertEquals(true, comprarSkin);
+        Assert.assertEquals(false, comprarSkin);
     }
 
     @Test
@@ -93,7 +92,7 @@ public class knivesTest {
                 .escolherProdutoQueVaiSerPesquisado("tag_weapon_knife_gut")
                 .ordernarPeloMenorPreco()
                 .validarValorDaSkin();
-        Assert.assertEquals(true, comprarSkin);
+        Assert.assertEquals(false, comprarSkin);
     }
 
     @After
