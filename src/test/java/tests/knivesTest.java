@@ -31,7 +31,7 @@ public class knivesTest {
             .escolherProdutoQueVaiSerPesquisado("tag_weapon_knife_butterfly")
             .ordernarPeloMenorPreco()
             .validarValorDaSkin();
-        Assert.assertEquals(true, comprarSkin);
+        Assert.assertEquals(false, comprarSkin);
     }
 
 

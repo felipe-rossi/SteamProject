@@ -15,10 +15,12 @@ public class CreateDriver {
 
     public WebDriver createWebdriver() throws MalformedURLException {
 
-        ChromeOptions chromeOptions = new ChromeOptions();
-        chromeOptions.setCapability("platformName", "Windows");
-
-        WebDriver driver = new RemoteWebDriver(new URL("http://172.31.34.98:4444/wd/hub"), chromeOptions);
+//        ChromeOptions chromeOptions = new ChromeOptions();
+//        chromeOptions.setCapability("platformName", "Windows");
+//
+//        WebDriver driver = new RemoteWebDriver(new URL("http://172.31.34.98:4444/wd/hub"), chromeOptions);
+        System.setProperty("webdriver.chrome.driver","chromedriver.exe");
+        WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
         driver.get("https://store.steampowered.com/?l=brazilian");
