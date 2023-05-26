@@ -1,16 +1,11 @@
 pipeline{
     agent any
     stages{
-        stage('Início'){
+        stage('Iniciar Testes'){
             steps{
-                bat 'echo início'
+                bat 'mvn test -DskipTests=true'
             }
         }
 
-        stage('Meio'){
-            steps{
-                bat 'echo Meio'
-            }
-        }
     }
 }
