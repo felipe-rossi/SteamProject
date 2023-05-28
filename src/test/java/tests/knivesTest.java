@@ -12,7 +12,7 @@ public class knivesTest {
    private WebDriver driver;
 
     @Before
-    public void setUp() throws MalformedURLException {
+    public void setUp() {
         CreateDriver cd = new CreateDriver();
         driver = cd.createWebdriver();
 

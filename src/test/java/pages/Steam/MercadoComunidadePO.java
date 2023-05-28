@@ -2,8 +2,10 @@ package pages.Steam;
 
 import Suporte.BasePage;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -18,6 +20,9 @@ public class MercadoComunidadePO extends BasePage {
     public WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
 
     public BuscarNoMercadoDaComunidadePO escolherProdutoQueVaiSerPesquisado(String produto){
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("window.scrollBy(0,250)", "");
+
         WebElement btnExibirOpcoesDetalhadas = driver.findElement(By.xpath("//*[contains(text(), 'Exibir opções avançadas...')]"));
         btnExibirOpcoesDetalhadas.click();
 
