@@ -1,14 +1,9 @@
 pipeline{
     agent any
     stages{
-    stage('Configurar Navegador'){
-                steps{
-                    sh 'chmod +x /home/frossi/Documentos/geckodriver'
-                }
-            }
         stage('Iniciar Testes'){
             steps{
-                sh 'mvn test'
+                bat 'mvn test'
             }
         }
     }
