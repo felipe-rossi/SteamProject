@@ -5,24 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ccebf2e8-52ed-46c2-b2a6-3814c680d9ca" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chromedriver" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Suporte/CreateDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Suporte/CreateDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/Steam/MercadoComunidadePO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Steam/MercadoComunidadePO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/knivesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/knivesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Suporte/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Suporte/BasePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Suporte/CreateDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Suporte/CreateDriver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Suporte/GerarDataAtual.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Suporte/GerarDataAtual.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Suporte/Screenshot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Suporte/Screenshot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/Gmail/CaixaDeEntradaPO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/Gmail/CaixaDeEntradaPO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/Gmail/LoginPageOutlookPO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/Gmail/LoginPageOutlookPO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/Steam/BuscarNoMercadoDaComunidadePO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/Steam/BuscarNoMercadoDaComunidadePO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/Steam/HomeSteamPO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/Steam/HomeSteamPO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/Steam/LoginPO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/Steam/LoginPO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/Steam/MercadoComunidadePO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/Steam/MercadoComunidadePO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/knivesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/knivesTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
