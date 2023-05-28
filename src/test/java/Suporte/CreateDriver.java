@@ -13,14 +13,14 @@ import java.time.Duration;
 
 public class CreateDriver {
 
-    public WebDriver createWebdriver() throws MalformedURLException {
+    public WebDriver createWebdriver() {
 
-//        ChromeOptions chromeOptions = new ChromeOptions();
-//        chromeOptions.setCapability("platformName", "Windows");
-//
-//        WebDriver driver = new RemoteWebDriver(new URL("http://172.31.34.98:4444/wd/hub"), chromeOptions);
-        System.setProperty("webdriver.chrome.driver","chromedriver_linux");
-        WebDriver driver = new ChromeDriver();
+        ChromeOptions chromeOptions = new ChromeOptions();
+        chromeOptions.addArguments("--headless");
+        chromeOptions.addArguments("--no-sandbox");
+
+        System.setProperty("webdriver.chrome.driver","/home/frossi/Documentos/chromedriver");
+        WebDriver driver = new ChromeDriver(chromeOptions);
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
         driver.get("https://store.steampowered.com/?l=brazilian");
