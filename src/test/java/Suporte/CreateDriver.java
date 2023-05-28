@@ -19,7 +19,7 @@ public class CreateDriver {
         chromeOptions.addArguments("--headless");
         chromeOptions.addArguments("--no-sandbox");
 
-        System.setProperty("webdriver.chrome.driver","~/Documentos/chromedriver");
+        System.setProperty("webdriver.chrome.driver","chromedriver");
         WebDriver driver = new ChromeDriver(chromeOptions);
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
