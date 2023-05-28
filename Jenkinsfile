@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('Iniciar Testes'){
             steps{
-                sudo 'mvn test'
+                ssh 'mvn test'
             }
         }
     }
