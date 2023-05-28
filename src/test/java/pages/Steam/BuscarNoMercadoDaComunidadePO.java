@@ -30,7 +30,7 @@ public class BuscarNoMercadoDaComunidadePO extends BasePage {
         wait.until(ExpectedConditions.textToBe(By.xpath("//span[@class='market_sort_arrow']"),"▲"));
 
         try{
-            Thread.sleep(Duration.ofSeconds(3));
+            Thread.sleep(3000);
         }catch (Exception e){
             System.out.println("Erro ao esperar 3s");
         }
