@@ -40,11 +40,13 @@ public class BuscarNoMercadoDaComunidadePO extends BasePage {
         System.out.println("Nome da Skin: " + listaNomesSkin.get(0).getText());
 
         List<WebElement> listaImagens = driver.findElements(By.xpath("//img[@class = 'market_listing_item_img']"));
-        String linkFoto  = listaImagens.get(0).getAttribute("src");
-        System.out.println("Link da imagem da Skin: " + linkFoto);
+        System.out.println("Link da imagem da Skin: " + listaImagens.get(0).getAttribute("src"));
 
         List<WebElement> listaPrecos = driver.findElements(By.xpath("//span[@class='normal_price']"));
         System.out.println("Skin mais barata custa: " + listaPrecos.get(0).getText());
+
+        List<WebElement> listaLinks = driver.findElements(By.xpath("//a[@class='market_listing_row_link']"));
+        System.out.println("Link para comprar: " + listaLinks.get(0).getAttribute("href"));
 
         if (tratarValorSkin(listaPrecos.get(0).getText()) <= 300){
             System.out.println("Valor da Skin é MENOR OU IGUAL que 300 reais");

@@ -6,10 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ccebf2e8-52ed-46c2-b2a6-3814c680d9ca" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/Steam/BuscarNoMercadoDaComunidadePO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Steam/BuscarNoMercadoDaComunidadePO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/Steam/HomeSteamPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Steam/HomeSteamPO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/knivesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/knivesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/Steam/BuscarNoMercadoDaComunidadePO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/Steam/BuscarNoMercadoDaComunidadePO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/knivesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/knivesTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,22 +57,7 @@
       <recent name="C:\Users\felip\DevOps\tasks-functional-tests\ProjetoSteam\src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.knivesTest.validarPrecoDaFacaButterfly">
-    <configuration name="knivesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ProjetoSteam" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.knivesTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.knivesTest.validarPrecoDaFacaEsqueleto">
     <configuration name="knivesTest.validarPrecoDaFacaBaioneta" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProjetoSteam" />
       <extension name="coverage">
@@ -122,6 +106,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="knivesTest.validarPrecoDaFacaEsqueleto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProjetoSteam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.knivesTest" />
+      <option name="METHOD_NAME" value="validarPrecoDaFacaEsqueleto" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="knivesTest.validarPrecoDaFacaKarambit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProjetoSteam" />
       <extension name="coverage">
@@ -140,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.knivesTest.validarPrecoDaFacaEsqueleto" />
         <item itemvalue="JUnit.knivesTest.validarPrecoDaFacaButterfly" />
         <item itemvalue="JUnit.knivesTest.validarPrecoDaFacaBaionetaM9" />
         <item itemvalue="JUnit.knivesTest.validarPrecoDaFacaKarambit" />
         <item itemvalue="JUnit.knivesTest.validarPrecoDaFacaBaioneta" />
-        <item itemvalue="JUnit.knivesTest" />
       </list>
     </recent_temporary>
   </component>
