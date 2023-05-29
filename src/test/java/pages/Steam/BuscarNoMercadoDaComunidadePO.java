@@ -7,6 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.awt.image.BufferedImage;
 import java.time.Duration;
 import java.util.List;
 
@@ -34,6 +35,13 @@ public class BuscarNoMercadoDaComunidadePO extends BasePage {
         }catch (Exception e){
             System.out.println("Erro ao esperar 3s");
         }
+
+        List<WebElement> listaNomesSkin = driver.findElements(By.xpath("//span[@class = 'market_listing_item_name']"));
+        System.out.println("Nome da Skin: " + listaNomesSkin.get(0).getText());
+
+        List<WebElement> listaImagens = driver.findElements(By.xpath("//img[@class = 'market_listing_item_img']"));
+        String linkFoto  = listaImagens.get(0).getAttribute("src");
+        System.out.println("Link da imagem da Skin: " + linkFoto);
 
         List<WebElement> listaPrecos = driver.findElements(By.xpath("//span[@class='normal_price']"));
         System.out.println("Skin mais barata custa: " + listaPrecos.get(0).getText());

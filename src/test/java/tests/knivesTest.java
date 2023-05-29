@@ -2,6 +2,7 @@ package tests;
 
 import Suporte.CreateDriver;
 import org.junit.*;
+import org.junit.rules.TestName;
 import org.openqa.selenium.WebDriver;
 import pages.Steam.HomeSteamPO;
 
@@ -72,6 +73,18 @@ public class knivesTest {
     }
 
     @Test
+    public void validarPrecoDaFacaTalon(){
+        boolean comprarSkin = new HomeSteamPO(driver)
+                .clicarEmIniciarSessao()
+                .realizarLogin("feliperossisteam","EL3+X]r+1r")
+                .clicarNaOpcaoMercadoComunidade()
+                .escolherProdutoQueVaiSerPesquisado("tag_weapon_knife_widowmaker")
+                .ordernarPeloMenorPreco()
+                .validarValorDaSkin();
+        Assert.assertEquals(false, comprarSkin);
+    }
+
+    @Test
     public void validarPrecoDaFacaBowie(){
         boolean comprarSkin = new HomeSteamPO(driver)
                 .clicarEmIniciarSessao()
@@ -84,16 +97,42 @@ public class knivesTest {
     }
 
     @Test
-    public void validarPrecoDaFacaGut(){
+    public void validarPrecoDaFacaCanivete(){
         boolean comprarSkin = new HomeSteamPO(driver)
                 .clicarEmIniciarSessao()
                 .realizarLogin("feliperossisteam","EL3+X]r+1r")
                 .clicarNaOpcaoMercadoComunidade()
-                .escolherProdutoQueVaiSerPesquisado("tag_weapon_knife_gut")
+                .escolherProdutoQueVaiSerPesquisado("tag_weapon_knife_flip")
                 .ordernarPeloMenorPreco()
                 .validarValorDaSkin();
         Assert.assertEquals(false, comprarSkin);
     }
+
+    @Test
+    public void validarPrecoDaFacaClassica(){
+        boolean comprarSkin = new HomeSteamPO(driver)
+                .clicarEmIniciarSessao()
+                .realizarLogin("feliperossisteam","EL3+X]r+1r")
+                .clicarNaOpcaoMercadoComunidade()
+                .escolherProdutoQueVaiSerPesquisado("tag_weapon_knife_css")
+                .ordernarPeloMenorPreco()
+                .validarValorDaSkin();
+        Assert.assertEquals(false, comprarSkin);
+    }
+
+    @Test
+    public void validarPrecoDaFacaEsqueleto(){
+        boolean comprarSkin = new HomeSteamPO(driver)
+                .clicarEmIniciarSessao()
+                .realizarLogin("feliperossisteam","EL3+X]r+1r")
+                .clicarNaOpcaoMercadoComunidade()
+                .escolherProdutoQueVaiSerPesquisado("tag_weapon_knife_skeleton")
+                .ordernarPeloMenorPreco()
+                .validarValorDaSkin();
+        Assert.assertEquals(false, comprarSkin);
+    }
+
+
 
     @After
     public void tearDown(){

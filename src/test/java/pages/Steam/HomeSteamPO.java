@@ -34,4 +34,10 @@ public class HomeSteamPO extends BasePage {
         return new LoginPO(driver);
     }
 
+//    public HomeSteamPO selecionarLinguagemPortugues(){
+//        WebElement btnIdioma = driver.findElement(By.id("language_pulldown"));
+//        btnIdioma.click();
+//
+//    }
+
 }
