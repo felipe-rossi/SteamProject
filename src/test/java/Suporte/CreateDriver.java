@@ -22,6 +22,8 @@ public class CreateDriver {
 
         ChromeOptions chromeOptions = new ChromeOptions();
         chromeOptions.addArguments("lang=pt-BR");
+        chromeOptions.addArguments("user-data-dir=C:\\Users\\felip\\Documents\\Google\\User Data");
+        //chromeOptions.addArguments("--disable-dev-shm-usage");
 
         WebDriver driver = new ChromeDriver(chromeOptions);
         driver.manage().window().maximize();

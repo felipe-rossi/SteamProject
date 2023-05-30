@@ -17,7 +17,12 @@ public class HomeSteamPO extends BasePage {
         super(driver);
     }
 
+    public WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+
     public MercadoComunidadePO clicarNaOpcaoMercadoComunidade(){
+        WebElement nomeSteam = driver.findElement(By.id("account_pulldown"));
+        wait.until(ExpectedConditions.visibilityOf(nomeSteam));
+
         WebElement menuComunidade = driver.findElement(By.linkText("COMUNIDADE"));
         new Actions(driver).moveToElement(menuComunidade).perform();
 
