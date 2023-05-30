@@ -1,9 +1,14 @@
 pipeline{
     agent any
     stages{
+        stage('Preparação'){
+            steps{
+                bat "mvn clean install"
+            }
+        }
         stage('Iniciar Testes'){
             steps{
-                bat 'mvn test ${env.INICIAR_TESTE}'
+                bat "mvn test ${INICIAR_TESTE}"
             }
         }
     }
