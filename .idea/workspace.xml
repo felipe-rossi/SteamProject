@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ccebf2e8-52ed-46c2-b2a6-3814c680d9ca" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/T002GlovesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/T003Ak47Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/Steam/BuscarNoMercadoDaComunidadePO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Steam/BuscarNoMercadoDaComunidadePO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/Steam/MercadoComunidadePO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Steam/MercadoComunidadePO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/knivesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/T001KnivesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/Steam/BuscarNoMercadoDaComunidadePO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/Steam/BuscarNoMercadoDaComunidadePO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/Steam/MercadoComunidadePO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/Steam/MercadoComunidadePO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/knivesTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,8 +62,8 @@
       <recent name="C:\Users\felip\DevOps\tasks-functional-tests\ProjetoSteam\src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.knivesTest.validarPrecoDaFacaEsqueleto">
-    <configuration name="knivesTest.validarPrecoDaFacaBaioneta" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.T003Ak47Test.validarPrecoDaAk47Vulcan">
+    <configuration name="T001KnivesTest.validarPrecoDaFacaEsqueleto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProjetoSteam" />
       <extension name="coverage">
         <pattern>
@@ -65,62 +72,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.knivesTest" />
-      <option name="METHOD_NAME" value="validarPrecoDaFacaBaioneta" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="knivesTest.validarPrecoDaFacaBaionetaM9" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ProjetoSteam" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.knivesTest" />
-      <option name="METHOD_NAME" value="validarPrecoDaFacaBaionetaM9" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="knivesTest.validarPrecoDaFacaButterfly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ProjetoSteam" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.knivesTest" />
-      <option name="METHOD_NAME" value="validarPrecoDaFacaButterfly" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="knivesTest.validarPrecoDaFacaEsqueleto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ProjetoSteam" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.knivesTest" />
+      <option name="MAIN_CLASS_NAME" value="tests.T001KnivesTest" />
       <option name="METHOD_NAME" value="validarPrecoDaFacaEsqueleto" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="knivesTest.validarPrecoDaFacaKarambit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="T001KnivesTest.validarPrecoDasFacas" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProjetoSteam" />
       <extension name="coverage">
         <pattern>
@@ -129,8 +88,56 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.knivesTest" />
-      <option name="METHOD_NAME" value="validarPrecoDaFacaKarambit" />
+      <option name="MAIN_CLASS_NAME" value="tests.T001KnivesTest" />
+      <option name="METHOD_NAME" value="validarPrecoDasFacas" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T002GlovesTest.validarPrecoDasLuvas" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProjetoSteam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.T002GlovesTest" />
+      <option name="METHOD_NAME" value="validarPrecoDasLuvas" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T003Ak47Test.validarPrecoDaAk47Vulcan" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProjetoSteam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.T003Ak47Test" />
+      <option name="METHOD_NAME" value="validarPrecoDaAk47Vulcan" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T003Ak47Test.validarPrecoDasFacas" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProjetoSteam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.T003Ak47Test" />
+      <option name="METHOD_NAME" value="validarPrecoDasFacas" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -138,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.knivesTest.validarPrecoDaFacaEsqueleto" />
-        <item itemvalue="JUnit.knivesTest.validarPrecoDaFacaButterfly" />
-        <item itemvalue="JUnit.knivesTest.validarPrecoDaFacaBaionetaM9" />
-        <item itemvalue="JUnit.knivesTest.validarPrecoDaFacaKarambit" />
-        <item itemvalue="JUnit.knivesTest.validarPrecoDaFacaBaioneta" />
+        <item itemvalue="JUnit.T003Ak47Test.validarPrecoDaAk47Vulcan" />
+        <item itemvalue="JUnit.T003Ak47Test.validarPrecoDasFacas" />
+        <item itemvalue="JUnit.T002GlovesTest.validarPrecoDasLuvas" />
+        <item itemvalue="JUnit.T001KnivesTest.validarPrecoDasFacas" />
+        <item itemvalue="JUnit.T001KnivesTest.validarPrecoDaFacaEsqueleto" />
       </list>
     </recent_temporary>
   </component>

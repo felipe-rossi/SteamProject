@@ -1,16 +1,16 @@
 package tests;
 
 import Suporte.CreateDriver;
-import org.junit.*;
-import org.junit.rules.TestName;
+import org.junit.After;
+import org.junit.Assert;
+import org.junit.Before;
+import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import pages.Steam.HomeSteamPO;
 
-import java.net.MalformedURLException;
+public class T003Ak47Test {
 
-public class knivesTest {
-
-   private WebDriver driver;
+    private WebDriver driver;
 
     @Before
     public void setUp() {
@@ -22,120 +22,113 @@ public class knivesTest {
         .realizarLoginOutlook("felipe.rossisteam@hotmail.com","FQ}$0obAP5");*/
     }
 
-
     @Test
-    public void validarPrecoDaFacaButterfly(){
-            boolean comprarSkin = new HomeSteamPO(driver)
-            .clicarEmIniciarSessao()
-            .realizarLogin("feliperossisteam","EL3+X]r+1r")
-            .clicarNaOpcaoMercadoComunidade()
-            .escolherProdutoQueVaiSerPesquisado("tag_weapon_knife_butterfly")
-            .ordernarPeloMenorPreco()
-            .validarValorDaSkin();
-        Assert.assertEquals(false, comprarSkin);
-    }
-
-
-    @Test
-    public void validarPrecoDaFacaKarambit(){
+    public void validarPrecoDaAk47RaioX(){
         boolean comprarSkin = new HomeSteamPO(driver)
                 .clicarEmIniciarSessao()
                 .realizarLogin("feliperossisteam","EL3+X]r+1r")
                 .clicarNaOpcaoMercadoComunidade()
-                .escolherProdutoQueVaiSerPesquisado("tag_weapon_knife_karambit")
+                .escolherTipoDeProdutoQueVaiSerPesquisa("tag_weapon_ak47")
+                .buscarSkin("AK-47 | Raio-X")
                 .ordernarPeloMenorPreco()
                 .validarValorDaSkin();
         Assert.assertEquals(false, comprarSkin);
     }
 
     @Test
-    public void validarPrecoDaFacaBaioneta(){
+    public void validarPrecoDaAk47SerpenteDeFogo(){
         boolean comprarSkin = new HomeSteamPO(driver)
                 .clicarEmIniciarSessao()
                 .realizarLogin("feliperossisteam","EL3+X]r+1r")
                 .clicarNaOpcaoMercadoComunidade()
-                .escolherProdutoQueVaiSerPesquisado("tag_weapon_bayonet")
+                .escolherTipoDeProdutoQueVaiSerPesquisa("tag_weapon_ak47")
+                .buscarSkin("AK-47 | Serpente de Fogo")
                 .ordernarPeloMenorPreco()
                 .validarValorDaSkin();
         Assert.assertEquals(false, comprarSkin);
     }
 
     @Test
-    public void validarPrecoDaFacaBaionetaM9(){
+    public void validarPrecoDaAk47Hidroponica(){
         boolean comprarSkin = new HomeSteamPO(driver)
                 .clicarEmIniciarSessao()
                 .realizarLogin("feliperossisteam","EL3+X]r+1r")
                 .clicarNaOpcaoMercadoComunidade()
-                .escolherProdutoQueVaiSerPesquisado("tag_weapon_knife_m9_bayonet")
+                .escolherTipoDeProdutoQueVaiSerPesquisa("tag_weapon_ak47")
+                .buscarSkin("AK-47 | Hidropônica")
                 .ordernarPeloMenorPreco()
                 .validarValorDaSkin();
         Assert.assertEquals(false, comprarSkin);
     }
 
     @Test
-    public void validarPrecoDaFacaTalon(){
+    public void validarPrecoDaAk47Viajante(){
         boolean comprarSkin = new HomeSteamPO(driver)
                 .clicarEmIniciarSessao()
                 .realizarLogin("feliperossisteam","EL3+X]r+1r")
                 .clicarNaOpcaoMercadoComunidade()
-                .escolherProdutoQueVaiSerPesquisado("tag_weapon_knife_widowmaker")
+                .escolherTipoDeProdutoQueVaiSerPesquisa("tag_weapon_ak47")
+                .buscarSkin("AK-47 | Viajante")
                 .ordernarPeloMenorPreco()
                 .validarValorDaSkin();
         Assert.assertEquals(false, comprarSkin);
     }
 
     @Test
-    public void validarPrecoDaFacaBowie(){
+    public void validarPrecoDaAk47OncaPintada(){
         boolean comprarSkin = new HomeSteamPO(driver)
                 .clicarEmIniciarSessao()
                 .realizarLogin("feliperossisteam","EL3+X]r+1r")
                 .clicarNaOpcaoMercadoComunidade()
-                .escolherProdutoQueVaiSerPesquisado("tag_weapon_knife_survival_bowie")
+                .escolherTipoDeProdutoQueVaiSerPesquisa("tag_weapon_ak47")
+                .buscarSkin("AK-47 (Lembrança) | Onça-pintada")
                 .ordernarPeloMenorPreco()
                 .validarValorDaSkin();
         Assert.assertEquals(false, comprarSkin);
     }
 
     @Test
-    public void validarPrecoDaFacaCanivete(){
+    public void validarPrecoDaAk47AquecimentoDeAco(){
         boolean comprarSkin = new HomeSteamPO(driver)
                 .clicarEmIniciarSessao()
                 .realizarLogin("feliperossisteam","EL3+X]r+1r")
                 .clicarNaOpcaoMercadoComunidade()
-                .escolherProdutoQueVaiSerPesquisado("tag_weapon_knife_flip")
+                .escolherTipoDeProdutoQueVaiSerPesquisa("tag_weapon_ak47")
+                .buscarSkin("AK-47 | Aquecimento de Aço")
                 .ordernarPeloMenorPreco()
                 .validarValorDaSkin();
         Assert.assertEquals(false, comprarSkin);
     }
 
     @Test
-    public void validarPrecoDaFacaClassica(){
+    public void validarPrecoDaAk47Vulcan(){
         boolean comprarSkin = new HomeSteamPO(driver)
                 .clicarEmIniciarSessao()
                 .realizarLogin("feliperossisteam","EL3+X]r+1r")
                 .clicarNaOpcaoMercadoComunidade()
-                .escolherProdutoQueVaiSerPesquisado("tag_weapon_knife_css")
+                .escolherTipoDeProdutoQueVaiSerPesquisa("tag_weapon_ak47")
+                .buscarSkin("AK-47 | Vulcan")
                 .ordernarPeloMenorPreco()
                 .validarValorDaSkin();
         Assert.assertEquals(false, comprarSkin);
     }
 
     @Test
-    public void validarPrecoDaFacaEsqueleto(){
+    public void validarPrecoDaAk47BombaDeCombustivel(){
         boolean comprarSkin = new HomeSteamPO(driver)
                 .clicarEmIniciarSessao()
                 .realizarLogin("feliperossisteam","EL3+X]r+1r")
                 .clicarNaOpcaoMercadoComunidade()
-                .escolherProdutoQueVaiSerPesquisado("tag_weapon_knife_skeleton")
+                .escolherTipoDeProdutoQueVaiSerPesquisa("tag_weapon_ak47")
+                .buscarSkin("AK-47 | Bomba de Combustível")
                 .ordernarPeloMenorPreco()
                 .validarValorDaSkin();
         Assert.assertEquals(false, comprarSkin);
     }
-
 
     @After
     public void tearDown(){
         //Screenshot.takeScrennshot();
-       driver.close();
+        driver.close();
     }
 }

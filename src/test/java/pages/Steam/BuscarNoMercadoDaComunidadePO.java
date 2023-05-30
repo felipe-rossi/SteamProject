@@ -2,6 +2,7 @@ package pages.Steam;
 
 import Suporte.BasePage;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -22,6 +23,14 @@ public class BuscarNoMercadoDaComunidadePO extends BasePage {
     public BuscarNoMercadoDaComunidadePO ordernarPeloMenorPreco(){
         WebElement ordernarpreco = driver.findElement(By.xpath("//*[@data-sorttype='price']"));
         ordernarpreco.click();
+
+        return this;
+    }
+
+    public BuscarNoMercadoDaComunidadePO buscarSkin(String nomeSkin){
+        WebElement campoPesquisa = driver.findElement(By.id("findItemsSearchBox"));
+        campoPesquisa.sendKeys(nomeSkin);
+        campoPesquisa.sendKeys(Keys.ENTER);
 
         return this;
     }
@@ -48,11 +57,11 @@ public class BuscarNoMercadoDaComunidadePO extends BasePage {
         List<WebElement> listaLinks = driver.findElements(By.xpath("//a[@class='market_listing_row_link']"));
         System.out.println("Link para comprar: " + listaLinks.get(0).getAttribute("href"));
 
-        if (tratarValorSkin(listaPrecos.get(0).getText()) <= 300){
-            System.out.println("Valor da Skin é MENOR OU IGUAL que 300 reais");
+        if (tratarValorSkin(listaPrecos.get(0).getText()) <= 150){
+            System.out.println("Valor da Skin é MENOR OU IGUAL que 150 reais");
             comprarSkin = true;
         }else{
-            System.out.println("Valor da Skin é MAIOR que 300 reais");
+            System.out.println("Valor da Skin é MAIOR que 150 reais");
             comprarSkin = false;
         }
 

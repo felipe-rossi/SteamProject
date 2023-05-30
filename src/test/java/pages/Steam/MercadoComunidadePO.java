@@ -19,7 +19,7 @@ public class MercadoComunidadePO extends BasePage {
 
     public WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
 
-    public BuscarNoMercadoDaComunidadePO escolherProdutoQueVaiSerPesquisado(String produto){
+    public BuscarNoMercadoDaComunidadePO escolherTipoDeProdutoQueVaiSerPesquisa(String tipoSkin){
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("window.scrollBy(0,250)", "");
 
@@ -32,8 +32,14 @@ public class MercadoComunidadePO extends BasePage {
         WebElement campoSelecioneJogo = driver.findElement(By.id("market_advancedsearch_appselect_options_apps"));
         campoSelecioneJogo.findElement(By.id("app_option_730")).click();
 
-        WebElement campoSelecioneArma = driver.findElement(By.name("category_730_Weapon[]"));
-        new Select(campoSelecioneArma).selectByValue(produto);
+        if(tipoSkin.contains("Type")){
+            WebElement campoSelecioneFaca = driver.findElement(By.id(tipoSkin));
+            campoSelecioneFaca.click();
+        }else if(tipoSkin.contains("weapon")){
+            WebElement campoSelecioneFaca = driver.findElement(By.name("category_730_Weapon[]"));
+            new Select(campoSelecioneFaca).selectByValue(tipoSkin);
+        }
+
 
         List <WebElement> btnBuscar = driver.findElements(By.xpath("//*[contains(text(), 'Buscar')]"));
         btnBuscar.get(2).click();
