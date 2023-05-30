@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('Iniciar Testes'){
             steps{
-                bat 'mvn test $INICIAR_TESTE'
+                bat 'mvn test ${env.INICIAR_TESTE}'
             }
         }
     }
