@@ -94,7 +94,7 @@ public class T003Ak47Test {
                 .realizarLogin("feliperossisteam","EL3+X]r+1r")
                 .clicarNaOpcaoMercadoComunidade()
                 .escolherTipoDeProdutoQueVaiSerPesquisa("tag_weapon_ak47")
-                .buscarSkin("AK-47 | Aquecimento de Aço")
+                .buscarSkin("AK-47 | Aquecimento")
                 .ordernarPeloMenorPreco()
                 .validarValorDaSkin();
         Assert.assertEquals(false, comprarSkin);
