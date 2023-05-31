@@ -34,12 +34,6 @@ public class LoginPO extends BasePage {
         WebElement nomeSteam = driver.findElement(By.id("account_pulldown"));
         wait.until(ExpectedConditions.visibilityOf(nomeSteam));
 
-        Set<Cookie> cookies = driver.manage().getCookies();
-
-        for (Cookie c:cookies) {
-            System.out.println("Nome do Cookie: " + c.getName() + " Valor do Cookie: " + c.getValue());
-        }
-
         return new HomeSteamPO(driver);
     }
 

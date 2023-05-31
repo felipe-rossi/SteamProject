@@ -23,6 +23,8 @@ public class T002GlovesTest {
     @Test
     public void validarPrecoDasLuvas(){
         boolean comprarSkin = new HomeSteamPO(driver)
+                .clicarEmIniciarSessao()
+                .realizarLogin("feliperossisteam","EL3+X]r+1r")
                 .clicarNaOpcaoMercadoComunidade()
                 .escolherTipoDeProdutoQueVaiSerPesquisa("tag_730_Type_Type_Hands")
                 .ordernarPeloMenorPreco()
