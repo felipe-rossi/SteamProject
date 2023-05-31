@@ -3,6 +3,7 @@ pipeline{
     stages{
         stage('Iniciar Testes'){
             steps{
+                bat "java -Dwebdriver.chrome.driver=chromedriver.exe -Dwebdriver.chrome.args=--user-data-dir=C:\\Users\\felip\\Documents\\Google\\User Data -jar selenium-server-standalone.jar"
                 bat "mvn test -Dtest=T001KnivesTest"
             }
         }
