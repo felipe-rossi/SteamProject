@@ -17,13 +17,11 @@ public class T003Ak47Test {
         CreateDriver cd = new CreateDriver();
         driver = cd.createWebdriver();
 
-        /*driver.get("https://login.live.com/");
-        new LoginPageOutlookPO(driver)
-        .realizarLoginOutlook("felipe.rossisteam@hotmail.com","FQ}$0obAP5");*/
+        driver.get("https://store.steampowered.com/?l=brazilian");
     }
 
     @Test
-    public void validarPrecoDaAk47RaioX(){
+    public void validar001PrecoDaAk47RaioX(){
         boolean comprarSkin = new HomeSteamPO(driver)
                 .clicarNaOpcaoMercadoComunidade()
                 .escolherTipoDeProdutoQueVaiSerPesquisa("tag_weapon_ak47")

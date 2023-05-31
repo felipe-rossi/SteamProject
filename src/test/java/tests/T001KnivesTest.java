@@ -3,6 +3,7 @@ package tests;
 import Suporte.CreateDriver;
 import org.junit.*;
 import org.openqa.selenium.WebDriver;
+import pages.Outlook.LoginPageOutlookPO;
 import pages.Steam.HomeSteamPO;
 
 public class T001KnivesTest {
@@ -14,9 +15,8 @@ public class T001KnivesTest {
         CreateDriver cd = new CreateDriver();
         driver = cd.createWebdriver();
 
-        /*driver.get("https://login.live.com/");
-        new LoginPageOutlookPO(driver)
-        .realizarLoginOutlook("felipe.rossisteam@hotmail.com","FQ}$0obAP5");*/
+        driver.get("https://store.steampowered.com/?l=brazilian");
+
     }
 
 
@@ -34,6 +34,6 @@ public class T001KnivesTest {
     @After
     public void tearDown(){
         //Screenshot.takeScrennshot();
-       driver.close();
+       //driver.close();
     }
 }

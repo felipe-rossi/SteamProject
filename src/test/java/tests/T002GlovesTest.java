@@ -16,9 +16,7 @@ public class T002GlovesTest {
         CreateDriver cd = new CreateDriver();
         driver = cd.createWebdriver();
 
-        /*driver.get("https://login.live.com/");
-        new LoginPageOutlookPO(driver)
-        .realizarLoginOutlook("felipe.rossisteam@hotmail.com","FQ}$0obAP5");*/
+        driver.get("https://store.steampowered.com/?l=brazilian");
     }
 
 

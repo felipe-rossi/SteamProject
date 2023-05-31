@@ -1,5 +1,6 @@
 package Suporte;
 
+import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -22,13 +23,13 @@ public class CreateDriver {
 
         ChromeOptions chromeOptions = new ChromeOptions();
         chromeOptions.addArguments("lang=pt-BR");
-        chromeOptions.addArguments("user-data-dir=C:\\Users\\felip\\Documents\\Google\\User Data");
-        //chromeOptions.addArguments("--disable-dev-shm-usage");
+        chromeOptions.addArguments("--no-sandbox");
+        chromeOptions.addArguments("--disable-dev-shm-usage");
+        chromeOptions.addArguments("--user-data-dir=C:\\Users\\felip\\Documents\\Google\\User Data");
 
         WebDriver driver = new ChromeDriver(chromeOptions);
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
-        driver.get("https://store.steampowered.com/?l=brazilian");
 
         return driver;
 
