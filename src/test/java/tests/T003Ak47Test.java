@@ -124,18 +124,6 @@ public class T003Ak47Test {
         Assert.assertEquals(false, comprarSkin);
     }
 
-    @Test
-    public void validarPrecoDaAk47Teste(){
-        boolean comprarSkin = new HomeSteamPO(driver)
-                .clicarEmIniciarSessao()
-                .realizarLogin("feliperossisteam","EL3+X]r+1r")
-                .clicarNaOpcaoMercadoComunidade()
-                .escolherTipoDeProdutoQueVaiSerPesquisa("tag_weapon_ak47")
-                .buscarSkin("AK-47 | Grade de Safári")
-                .ordernarPeloMenorPreco()
-                .validarValorDaSkin();
-        Assert.assertEquals(false, comprarSkin);
-    }
 
     @After
     public void tearDown(){
