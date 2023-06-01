@@ -32,9 +32,9 @@ public class T001KnivesTest {
             .clicarEmIniciarSessao()
             .realizarLogin("feliperossisteam","EL3+X]r+1r")
             .clicarNaOpcaoMercadoComunidade()
-            .escolherTipoDeProdutoQueVaiSerPesquisa("tag_730_Type_CSGO_Type_Knife")
+            .escolherTipoDeProdutoQueVaiSerPesquisa("tag_weapon_ak47")
             .ordernarPeloMenorPreco()
-            .validarValorDaSkin();
+            .validarValorDaSkin();//tag_730_Type_CSGO_Type_Knife
         Assert.assertFalse(comprarSkin);
     }
 
