@@ -130,7 +130,7 @@ public class T003Ak47Test {
     @AfterMethod
     public void tearDown(ITestResult result){
         if (result.getStatus() == ITestResult.FAILURE){
-            Screenshot.takeScrennshot("AK47");
+            Screenshot.takeScrennshot("C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\Steam Project - AK47\\target\\Screenshots\\AK47");
         }
         driver.close();
     }

@@ -40,7 +40,7 @@ public class T001KnivesTest {
     @AfterMethod
     public void tearDown(ITestResult result){
         if (result.getStatus() == ITestResult.FAILURE){
-            Screenshot.takeScrennshot("Facas");
+            Screenshot.takeScrennshot("C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\Steam Project - Knives\\target\\Screenshots\\Facas");
         }
 
        driver.close();

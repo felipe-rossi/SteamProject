@@ -40,7 +40,7 @@ public class T002GlovesTest {
     @AfterMethod
     public void tearDown(ITestResult result){
         if (result.getStatus() == ITestResult.FAILURE){
-            Screenshot.takeScrennshot("Luvas");
+            Screenshot.takeScrennshot("C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\Steam Project - Gloves\\target\\Screenshots\\Luvas");
         }
         driver.close();
     }
