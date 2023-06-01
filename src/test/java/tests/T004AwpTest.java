@@ -131,16 +131,6 @@ public class T004AwpTest {
 
     @AfterMethod
     public void tearDown(ITestResult result){
-        BuscarNoMercadoDaComunidadePO bmc = new BuscarNoMercadoDaComunidadePO(driver);
-
-//        if (result.getStatus() == ITestResult.FAILURE){
-//            Screenshot.takeScrennshot("C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\Steam Project - Knives\\target\\Screenshots\\Facas");
-//        }
-
-        if (bmc.getValorItemTratado() <= 15000){
-            EnviarEmail.enviarEmail(bmc.getNomeItem(),bmc.getValorItem(), bmc.getLinkItem());
-        }
-
         driver.close();
     }
 }

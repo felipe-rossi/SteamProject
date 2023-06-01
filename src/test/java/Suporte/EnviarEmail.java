@@ -18,7 +18,7 @@ public class EnviarEmail {
 
         try {
             email.setFrom(meuEmail);
-            email.setSubject("Surgiu uma faca com um valor menor que 150 reais!");
+            email.setSubject("Surgiu uma Skin com um valor menor que 150 reais!");
             email.setMsg("O item: " + nomeItem + " está com o valor de: " + valorItem + "\n" +
             "Aqui está o link para comprar a skin: " + linkItem);
             email.addTo(meuEmail);

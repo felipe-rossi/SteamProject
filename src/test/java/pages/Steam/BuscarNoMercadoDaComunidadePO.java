@@ -1,6 +1,7 @@
 package pages.Steam;
 
 import Suporte.BasePage;
+import Suporte.EnviarEmail;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -72,6 +73,8 @@ public class BuscarNoMercadoDaComunidadePO extends BasePage {
 
         if (tratarValorSkin(listaPrecos.get(0).getText()) <= 15000){
             System.out.println("Valor da Skin é MENOR OU IGUAL que 150 reais");
+            EnviarEmail.enviarEmail(nomeItem,valorItem,linkItem);
+
             comprarSkin = true;
         }else{
             System.out.println("Valor da Skin é MAIOR que 150 reais");
