@@ -10,7 +10,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pages.Steam.HomeSteamPO;
 
-public class T003Ak47Test {
+public class T004AwpTest {
 
     private WebDriver driver;
 
@@ -130,7 +130,7 @@ public class T003Ak47Test {
     @AfterMethod
     public void tearDown(ITestResult result){
         if (result.getStatus() == ITestResult.FAILURE){
-            Screenshot.takeScrennshot("AK47");
+            Screenshot.takeScrennshot("AWP");
         }
         driver.close();
     }

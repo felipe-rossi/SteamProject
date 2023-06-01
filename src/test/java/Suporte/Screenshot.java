@@ -13,7 +13,7 @@ public class Screenshot {
             Rectangle rct = new Rectangle(1920,1080);
 
             BufferedImage screenshot = rb.createScreenCapture(rct);
-            ImageIO.write(screenshot,"PNG", new File("D:\\Prints\\" + nomePrint + ".png"));
+            ImageIO.write(screenshot,"PNG", new File("C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\Steam Project - Knives\\target\\Screenshots\\" + nomePrint + ".png"));
 
 
         }catch (Exception e){

@@ -33,7 +33,7 @@ public class T001KnivesTest {
             .escolherTipoDeProdutoQueVaiSerPesquisa("tag_730_Type_CSGO_Type_Knife")
             .ordernarPeloMenorPreco()
             .validarValorDaSkin();
-        Assert.assertEquals(false, comprarSkin);
+        Assert.assertFalse(comprarSkin);
     }
 
 

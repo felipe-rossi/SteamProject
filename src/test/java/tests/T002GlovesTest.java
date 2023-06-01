@@ -33,7 +33,7 @@ public class T002GlovesTest {
                 .escolherTipoDeProdutoQueVaiSerPesquisa("tag_730_Type_Type_Hands")
                 .ordernarPeloMenorPreco()
                 .validarValorDaSkin();
-        Assert.assertEquals(false, comprarSkin);
+        Assert.assertFalse(comprarSkin);
     }
 
 
