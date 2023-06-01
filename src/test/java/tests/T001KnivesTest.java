@@ -1,16 +1,20 @@
 package tests;
 
 import Suporte.CreateDriver;
+import Suporte.Screenshot;
 import org.junit.*;
 import org.openqa.selenium.WebDriver;
-import pages.Outlook.LoginPageOutlookPO;
+import org.testng.ITestResult;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
 import pages.Steam.HomeSteamPO;
 
 public class T001KnivesTest {
 
    private WebDriver driver;
 
-    @Before
+    @BeforeMethod
     public void setUp() {
         CreateDriver cd = new CreateDriver();
         driver = cd.createWebdriver();
@@ -33,9 +37,12 @@ public class T001KnivesTest {
     }
 
 
-    @After
-    public void tearDown(){
-        //Screenshot.takeScrennshot();
-       //driver.close();
+    @AfterMethod
+    public void tearDown(ITestResult result){
+        if (result.getStatus() == ITestResult.FAILURE){
+            Screenshot.takeScrennshot("Facas");
+        }
+
+       driver.close();
     }
 }

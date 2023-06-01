@@ -7,13 +7,13 @@ import java.io.File;
 
 public class Screenshot {
 
-    public static void takeScrennshot(){
+    public static void takeScrennshot(String nomePrint){
         try{
             Robot rb = new Robot();
             Rectangle rct = new Rectangle(1920,1080);
 
             BufferedImage screenshot = rb.createScreenCapture(rct);
-            ImageIO.write(screenshot,"PNG", new File("D:\\Prints\\" + GerarDataAtual.gerarDataeHora() + ".png"));
+            ImageIO.write(screenshot,"PNG", new File("D:\\Prints\\" + nomePrint + ".png"));
 
 
         }catch (Exception e){

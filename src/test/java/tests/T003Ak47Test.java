@@ -1,18 +1,22 @@
 package tests;
 
 import Suporte.CreateDriver;
+import Suporte.Screenshot;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
-import org.junit.Test;
 import org.openqa.selenium.WebDriver;
+import org.testng.ITestResult;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
 import pages.Steam.HomeSteamPO;
 
 public class T003Ak47Test {
 
     private WebDriver driver;
 
-    @Before
+    @BeforeMethod
     public void setUp() {
         CreateDriver cd = new CreateDriver();
         driver = cd.createWebdriver();
@@ -20,7 +24,7 @@ public class T003Ak47Test {
         driver.get("https://store.steampowered.com/?l=brazilian");
     }
 
-    @Test
+    @org.testng.annotations.Test
     public void validar001PrecoDaAk47RaioX(){
         boolean comprarSkin = new HomeSteamPO(driver)
                 .clicarEmIniciarSessao()
@@ -33,7 +37,7 @@ public class T003Ak47Test {
         Assert.assertEquals(false, comprarSkin);
     }
 
-    @Test
+    @org.testng.annotations.Test
     public void validarPrecoDaAk47SerpenteDeFogo(){
         boolean comprarSkin = new HomeSteamPO(driver)
                 .clicarEmIniciarSessao()
@@ -46,7 +50,7 @@ public class T003Ak47Test {
         Assert.assertEquals(false, comprarSkin);
     }
 
-    @Test
+    @org.testng.annotations.Test
     public void validarPrecoDaAk47Hidroponica(){
         boolean comprarSkin = new HomeSteamPO(driver)
                 .clicarEmIniciarSessao()
@@ -59,7 +63,7 @@ public class T003Ak47Test {
         Assert.assertEquals(false, comprarSkin);
     }
 
-    @Test
+    @org.testng.annotations.Test
     public void validarPrecoDaAk47Viajante(){
         boolean comprarSkin = new HomeSteamPO(driver)
                 .clicarEmIniciarSessao()
@@ -72,7 +76,7 @@ public class T003Ak47Test {
         Assert.assertEquals(false, comprarSkin);
     }
 
-    @Test
+    @org.testng.annotations.Test
     public void validarPrecoDaAk47OncaPintada(){
         boolean comprarSkin = new HomeSteamPO(driver)
                 .clicarEmIniciarSessao()
@@ -85,7 +89,7 @@ public class T003Ak47Test {
         Assert.assertEquals(false, comprarSkin);
     }
 
-    @Test
+    @org.testng.annotations.Test
     public void validarPrecoDaAk47AquecimentoDeAco(){
         boolean comprarSkin = new HomeSteamPO(driver)
                 .clicarEmIniciarSessao()
@@ -98,7 +102,7 @@ public class T003Ak47Test {
         Assert.assertEquals(false, comprarSkin);
     }
 
-    @Test
+    @org.testng.annotations.Test
     public void validarPrecoDaAk47Vulcan(){
         boolean comprarSkin = new HomeSteamPO(driver)
                 .clicarEmIniciarSessao()
@@ -125,9 +129,11 @@ public class T003Ak47Test {
     }
 
 
-    @After
-    public void tearDown(){
-        //Screenshot.takeScrennshot();
+    @AfterMethod
+    public void tearDown(ITestResult result){
+        if (result.getStatus() == ITestResult.FAILURE){
+            Screenshot.takeScrennshot("AK47");
+        }
         driver.close();
     }
 }
