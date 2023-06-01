@@ -1,6 +1,7 @@
 package tests;
 
 import Suporte.CreateDriver;
+import Suporte.EnviarEmail;
 import Suporte.Screenshot;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
@@ -8,6 +9,7 @@ import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import pages.Steam.BuscarNoMercadoDaComunidadePO;
 import pages.Steam.HomeSteamPO;
 
 public class T004AwpTest {
@@ -129,9 +131,16 @@ public class T004AwpTest {
 
     @AfterMethod
     public void tearDown(ITestResult result){
-        if (result.getStatus() == ITestResult.FAILURE){
-            Screenshot.takeScrennshot("C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\Steam Project - AWP\\target\\Screenshots\\AWP");
+        BuscarNoMercadoDaComunidadePO bmc = new BuscarNoMercadoDaComunidadePO(driver);
+
+//        if (result.getStatus() == ITestResult.FAILURE){
+//            Screenshot.takeScrennshot("C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\Steam Project - Knives\\target\\Screenshots\\Facas");
+//        }
+
+        if (bmc.getValorItemTratado() <= 15000){
+            EnviarEmail.enviarEmail(bmc.getNomeItem(),bmc.getValorItem(), bmc.getLinkItem());
         }
+
         driver.close();
     }
 }

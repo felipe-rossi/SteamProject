@@ -1,6 +1,7 @@
 package tests;
 
 import Suporte.CreateDriver;
+import Suporte.EnviarEmail;
 import Suporte.Screenshot;
 import org.junit.*;
 import org.openqa.selenium.WebDriver;
@@ -8,6 +9,7 @@ import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import pages.Steam.BuscarNoMercadoDaComunidadePO;
 import pages.Steam.HomeSteamPO;
 
 public class T001KnivesTest {
@@ -30,7 +32,7 @@ public class T001KnivesTest {
             .clicarEmIniciarSessao()
             .realizarLogin("feliperossisteam","EL3+X]r+1r")
             .clicarNaOpcaoMercadoComunidade()
-            .escolherTipoDeProdutoQueVaiSerPesquisa("tag_730_Type_CSGO_Type_Knife")
+            .escolherTipoDeProdutoQueVaiSerPesquisa("tag_weapon_ak47")
             .ordernarPeloMenorPreco()
             .validarValorDaSkin();
         Assert.assertFalse(comprarSkin);
@@ -39,8 +41,14 @@ public class T001KnivesTest {
 
     @AfterMethod
     public void tearDown(ITestResult result){
-        if (result.getStatus() == ITestResult.FAILURE){
-            Screenshot.takeScrennshot("C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\Steam Project - Knives\\target\\Screenshots\\Facas");
+        BuscarNoMercadoDaComunidadePO bmc = new BuscarNoMercadoDaComunidadePO(driver);
+
+//        if (result.getStatus() == ITestResult.FAILURE){
+//            Screenshot.takeScrennshot("C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\Steam Project - Knives\\target\\Screenshots\\Facas");
+//        }
+
+        if (bmc.getValorItemTratado() <= 15000){
+            EnviarEmail.enviarEmail(bmc.getNomeItem(),bmc.getValorItem(), bmc.getLinkItem());
         }
 
        driver.close();

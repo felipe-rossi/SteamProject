@@ -10,6 +10,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.awt.image.BufferedImage;
 import java.time.Duration;
+import java.util.ArrayList;
 import java.util.List;
 
 public class BuscarNoMercadoDaComunidadePO extends BasePage {
@@ -19,6 +20,12 @@ public class BuscarNoMercadoDaComunidadePO extends BasePage {
 
     public WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
     public boolean comprarSkin;
+
+    public static String nomeItem;
+    public static String valorItem;
+    public static String linkItem;
+    public static int valorItemTratado;
+
 
     public BuscarNoMercadoDaComunidadePO ordernarPeloMenorPreco(){
         WebElement ordernarpreco = driver.findElement(By.xpath("//*[@data-sorttype='price']"));
@@ -37,6 +44,7 @@ public class BuscarNoMercadoDaComunidadePO extends BasePage {
 
     public boolean validarValorDaSkin(){
         comprarSkin = false;
+
         wait.until(ExpectedConditions.textToBe(By.xpath("//span[@class='market_sort_arrow']"),"▲"));
 
         try{
@@ -46,18 +54,23 @@ public class BuscarNoMercadoDaComunidadePO extends BasePage {
         }
 
         List<WebElement> listaNomesSkin = driver.findElements(By.xpath("//span[@class = 'market_listing_item_name']"));
+        nomeItem = listaNomesSkin.get(0).getText();
         System.out.println("Nome da Skin: " + listaNomesSkin.get(0).getText());
 
         List<WebElement> listaImagens = driver.findElements(By.xpath("//img[@class = 'market_listing_item_img']"));
         System.out.println("Link da imagem da Skin: " + listaImagens.get(0).getAttribute("src"));
 
         List<WebElement> listaPrecos = driver.findElements(By.xpath("//span[@class='normal_price']"));
+        valorItem = listaPrecos.get(0).getText();
         System.out.println("Skin mais barata custa: " + listaPrecos.get(0).getText());
 
         List<WebElement> listaLinks = driver.findElements(By.xpath("//a[@class='market_listing_row_link']"));
+        linkItem = listaLinks.get(0).getAttribute("href");
         System.out.println("Link para comprar: " + listaLinks.get(0).getAttribute("href"));
 
-        if (tratarValorSkin(listaPrecos.get(0).getText()) <= 150){
+        valorItemTratado = tratarValorSkin(listaPrecos.get(0).getText());
+
+        if (tratarValorSkin(listaPrecos.get(0).getText()) <= 15000){
             System.out.println("Valor da Skin é MENOR OU IGUAL que 150 reais");
             comprarSkin = true;
         }else{
@@ -80,4 +93,20 @@ public class BuscarNoMercadoDaComunidadePO extends BasePage {
 
         return valor;
     }
+
+    public String getNomeItem(){
+        return nomeItem;
+    }
+    public String getValorItem(){
+        return valorItem;
+    }
+
+    public int getValorItemTratado(){
+        return valorItemTratado;
+    }
+    public String getLinkItem(){
+        return linkItem;
+    }
+
+
 }
