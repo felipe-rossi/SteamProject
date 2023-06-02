@@ -21,7 +21,7 @@ public class T003Ak47Test {
         CreateDriver cd = new CreateDriver();
         driver = cd.createWebdriver();
 
-        driver.get("https://store.steampowered.com/?l=brazilian");
+        driver.get("https://steamcommunity.com/profiles/76561199508799871/");
     }
 
     @org.testng.annotations.Test

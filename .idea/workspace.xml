@@ -10,9 +10,14 @@
     <list default="true" id="ccebf2e8-52ed-46c2-b2a6-3814c680d9ca" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Suporte/CreateDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Suporte/CreateDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/Steam/LoginPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Steam/LoginPO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/T001KnivesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/T001KnivesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/T002GlovesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/T002GlovesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/T003Ak47Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/T003Ak47Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/T004AwpTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/T004AwpTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Suporte/CreateDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Suporte/CreateDriver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/T001KnivesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/T001KnivesTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/T003Ak47Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/T003Ak47Test.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,21 +119,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T003Ak47Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ProjetoSteam" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.T003Ak47Test" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="T001KnivesTest.validarPrecoDasFacas" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ProjetoSteam" />
       <extension name="coverage">
@@ -140,6 +130,24 @@
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.T001KnivesTest" />
       <option name="METHOD_NAME" value="validarPrecoDasFacas" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T002GlovesTest.validarPrecoDasLuvas" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ProjetoSteam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.T002GlovesTest" />
+      <option name="METHOD_NAME" value="validarPrecoDasLuvas" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -185,10 +193,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.T001KnivesTest.validarPrecoDasFacas" />
+        <item itemvalue="TestNG.T002GlovesTest.validarPrecoDasLuvas" />
         <item itemvalue="TestNG.T003Ak47Test.validarPrecoDaAk47BombaDeCombustivel" />
         <item itemvalue="TestNG.T003Ak47Test" />
         <item itemvalue="JUnit.T001KnivesTest.validarPrecoDasFacas" />
-        <item itemvalue="JUnit.T003Ak47Test" />
       </list>
     </recent_temporary>
   </component>

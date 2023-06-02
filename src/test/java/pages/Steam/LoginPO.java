@@ -1,6 +1,7 @@
 package pages.Steam;
 
 import Suporte.BasePage;
+import Suporte.CreateDriver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
@@ -10,6 +11,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 import java.util.List;
 import java.util.Set;
+
 
 
 public class LoginPO extends BasePage {
@@ -33,6 +35,7 @@ public class LoginPO extends BasePage {
 
         WebElement nomeSteam = driver.findElement(By.id("account_pulldown"));
         wait.until(ExpectedConditions.visibilityOf(nomeSteam));
+
 
         return new HomeSteamPO(driver);
     }

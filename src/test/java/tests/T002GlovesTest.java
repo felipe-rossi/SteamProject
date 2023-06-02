@@ -22,7 +22,7 @@ public class T002GlovesTest {
         CreateDriver cd = new CreateDriver();
         driver = cd.createWebdriver();
 
-        driver.get("https://store.steampowered.com/?l=brazilian");
+        driver.get("https://steamcommunity.com/profiles/76561199508799871/");
     }
 
 
