@@ -25,7 +25,7 @@ public class CreateDriver {
         chromeOptions.addArguments("lang=pt-BR");
         chromeOptions.addArguments("--no-sandbox");
         chromeOptions.addArguments("--disable-dev-shm-usage");
-        //chromeOptions.addArguments("--user-data-dir=C:\\Users\\felip\\Documents\\Google\\User Data");
+        chromeOptions.addArguments("--user-data-dir=C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\User Data");
 
         WebDriver driver = new ChromeDriver(chromeOptions);
         driver.manage().window().maximize();

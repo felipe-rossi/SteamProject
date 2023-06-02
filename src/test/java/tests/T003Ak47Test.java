@@ -27,8 +27,8 @@ public class T003Ak47Test {
     @org.testng.annotations.Test
     public void validar001PrecoDaAk47RaioX(){
         boolean comprarSkin = new HomeSteamPO(driver)
-                .clicarEmIniciarSessao()
-                .realizarLogin("feliperossisteam","EL3+X]r+1r")
+//                .clicarEmIniciarSessao()
+//                .realizarLogin("feliperossisteam","EL3+X]r+1r")
                 .clicarNaOpcaoMercadoComunidade()
                 .escolherTipoDeProdutoQueVaiSerPesquisa("tag_weapon_ak47")
                 .buscarSkin("AK-47 | Raio-X")
@@ -40,8 +40,8 @@ public class T003Ak47Test {
     @org.testng.annotations.Test
     public void validarPrecoDaAk47SerpenteDeFogo(){
         boolean comprarSkin = new HomeSteamPO(driver)
-                .clicarEmIniciarSessao()
-                .realizarLogin("feliperossisteam","EL3+X]r+1r")
+//                .clicarEmIniciarSessao()
+//                .realizarLogin("feliperossisteam","EL3+X]r+1r")
                 .clicarNaOpcaoMercadoComunidade()
                 .escolherTipoDeProdutoQueVaiSerPesquisa("tag_weapon_ak47")
                 .buscarSkin("AK-47 | Serpente de Fogo")
@@ -53,8 +53,8 @@ public class T003Ak47Test {
     @org.testng.annotations.Test
     public void validarPrecoDaAk47Hidroponica(){
         boolean comprarSkin = new HomeSteamPO(driver)
-                .clicarEmIniciarSessao()
-                .realizarLogin("feliperossisteam","EL3+X]r+1r")
+//                .clicarEmIniciarSessao()
+//                .realizarLogin("feliperossisteam","EL3+X]r+1r")
                 .clicarNaOpcaoMercadoComunidade()
                 .escolherTipoDeProdutoQueVaiSerPesquisa("tag_weapon_ak47")
                 .buscarSkin("AK-47 | Hidropônica")
@@ -66,8 +66,8 @@ public class T003Ak47Test {
     @org.testng.annotations.Test
     public void validarPrecoDaAk47Viajante(){
         boolean comprarSkin = new HomeSteamPO(driver)
-                .clicarEmIniciarSessao()
-                .realizarLogin("feliperossisteam","EL3+X]r+1r")
+//                .clicarEmIniciarSessao()
+//                .realizarLogin("feliperossisteam","EL3+X]r+1r")
                 .clicarNaOpcaoMercadoComunidade()
                 .escolherTipoDeProdutoQueVaiSerPesquisa("tag_weapon_ak47")
                 .buscarSkin("AK-47 | Viajante")
@@ -79,8 +79,8 @@ public class T003Ak47Test {
     @org.testng.annotations.Test
     public void validarPrecoDaAk47OncaPintada(){
         boolean comprarSkin = new HomeSteamPO(driver)
-                .clicarEmIniciarSessao()
-                .realizarLogin("feliperossisteam","EL3+X]r+1r")
+//                .clicarEmIniciarSessao()
+//                .realizarLogin("feliperossisteam","EL3+X]r+1r")
                 .clicarNaOpcaoMercadoComunidade()
                 .escolherTipoDeProdutoQueVaiSerPesquisa("tag_weapon_ak47")
                 .buscarSkin("AK-47 (Lembrança) | Onça-pintada")
@@ -92,8 +92,8 @@ public class T003Ak47Test {
     @org.testng.annotations.Test
     public void validarPrecoDaAk47AquecimentoDeAco(){
         boolean comprarSkin = new HomeSteamPO(driver)
-                .clicarEmIniciarSessao()
-                .realizarLogin("feliperossisteam","EL3+X]r+1r")
+//                .clicarEmIniciarSessao()
+//                .realizarLogin("feliperossisteam","EL3+X]r+1r")
                 .clicarNaOpcaoMercadoComunidade()
                 .escolherTipoDeProdutoQueVaiSerPesquisa("tag_weapon_ak47")
                 .buscarSkin("AK-47 | Aquecimento")
@@ -105,8 +105,8 @@ public class T003Ak47Test {
     @org.testng.annotations.Test
     public void validarPrecoDaAk47Vulcan(){
         boolean comprarSkin = new HomeSteamPO(driver)
-                .clicarEmIniciarSessao()
-                .realizarLogin("feliperossisteam","EL3+X]r+1r")
+//                .clicarEmIniciarSessao()
+//                .realizarLogin("feliperossisteam","EL3+X]r+1r")
                 .clicarNaOpcaoMercadoComunidade()
                 .escolherTipoDeProdutoQueVaiSerPesquisa("tag_weapon_ak47")
                 .buscarSkin("AK-47 | Vulcan")
@@ -118,8 +118,8 @@ public class T003Ak47Test {
     @Test
     public void validarPrecoDaAk47BombaDeCombustivel(){
         boolean comprarSkin = new HomeSteamPO(driver)
-                .clicarEmIniciarSessao()
-                .realizarLogin("feliperossisteam","EL3+X]r+1r")
+//                .clicarEmIniciarSessao()
+//                .realizarLogin("feliperossisteam","EL3+X]r+1r")
                 .clicarNaOpcaoMercadoComunidade()
                 .escolherTipoDeProdutoQueVaiSerPesquisa("tag_weapon_ak47")
                 .buscarSkin("AK-47 | Bomba de Combustível")
