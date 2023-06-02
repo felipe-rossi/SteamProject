@@ -30,6 +30,7 @@ public class BuscarNoMercadoDaComunidadePO extends BasePage {
 
     public BuscarNoMercadoDaComunidadePO ordernarPeloMenorPreco(){
         WebElement ordernarpreco = driver.findElement(By.xpath("//*[@data-sorttype='price']"));
+        wait.until(ExpectedConditions.visibilityOf(ordernarpreco));
         ordernarpreco.click();
 
         return this;
