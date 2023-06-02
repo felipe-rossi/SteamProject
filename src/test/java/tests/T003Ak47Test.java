@@ -33,6 +33,12 @@ public class T003Ak47Test {
                 .ordernarPeloMenorPreco()
                 .validarValorDaSkin();
         Assert.assertFalse(comprarSkin);
+
+        try {
+            Thread.sleep(20000);
+        }catch (Exception e){
+            System.out.println("Erro ao esperar 10s");
+        }
     }
 
     @org.testng.annotations.Test
@@ -44,6 +50,12 @@ public class T003Ak47Test {
                 .ordernarPeloMenorPreco()
                 .validarValorDaSkin();
         Assert.assertFalse(comprarSkin);
+
+        try {
+            Thread.sleep(20000);
+        }catch (Exception e){
+            System.out.println("Erro ao esperar 10s");
+        }
     }
 
     @org.testng.annotations.Test
@@ -55,6 +67,12 @@ public class T003Ak47Test {
                 .ordernarPeloMenorPreco()
                 .validarValorDaSkin();
         Assert.assertFalse(comprarSkin);
+
+        try {
+            Thread.sleep(20000);
+        }catch (Exception e){
+            System.out.println("Erro ao esperar 10s");
+        }
     }
 
     @org.testng.annotations.Test
@@ -66,6 +84,12 @@ public class T003Ak47Test {
                 .ordernarPeloMenorPreco()
                 .validarValorDaSkin();
         Assert.assertFalse(comprarSkin);
+
+        try {
+            Thread.sleep(20000);
+        }catch (Exception e){
+            System.out.println("Erro ao esperar 10s");
+        }
     }
 
     @org.testng.annotations.Test
@@ -77,6 +101,12 @@ public class T003Ak47Test {
                 .ordernarPeloMenorPreco()
                 .validarValorDaSkin();
         Assert.assertFalse(comprarSkin);
+
+        try {
+            Thread.sleep(20000);
+        }catch (Exception e){
+            System.out.println("Erro ao esperar 10s");
+        }
     }
 
     @org.testng.annotations.Test
@@ -90,7 +120,7 @@ public class T003Ak47Test {
         Assert.assertFalse(comprarSkin);
 
         try {
-            Thread.sleep(10000);
+            Thread.sleep(20000);
         }catch (Exception e){
             System.out.println("Erro ao esperar 10s");
         }
@@ -106,7 +136,7 @@ public class T003Ak47Test {
                 .validarValorDaSkin();
         Assert.assertFalse(comprarSkin);
         try {
-            Thread.sleep(10000);
+            Thread.sleep(20000);
         }catch (Exception e){
             System.out.println("Erro ao esperar 10s");
         }
@@ -121,6 +151,12 @@ public class T003Ak47Test {
                 .ordernarPeloMenorPreco()
                 .validarValorDaSkin();
         Assert.assertFalse(comprarSkin);
+
+        try {
+            Thread.sleep(20000);
+        }catch (Exception e){
+            System.out.println("Erro ao esperar 10s");
+        }
     }
 
 
