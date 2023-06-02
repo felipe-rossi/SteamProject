@@ -9,14 +9,20 @@
   <component name="ChangeListManager">
     <list default="true" id="ccebf2e8-52ed-46c2-b2a6-3814c680d9ca" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Suporte/CreateDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Suporte/CreateDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Suporte/EnviarEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Suporte/EnviarEmail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/Steam/BuscarNoMercadoDaComunidadePO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Steam/BuscarNoMercadoDaComunidadePO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/Steam/LoginPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Steam/LoginPO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/T001KnivesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/T001KnivesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/T002GlovesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/T002GlovesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/T003Ak47Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/T003Ak47Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/T004AwpTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/T004AwpTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Suporte/CreateDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Suporte/CreateDriver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Suporte/EnviarEmail.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Suporte/EnviarEmail.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/Steam/BuscarNoMercadoDaComunidadePO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/Steam/BuscarNoMercadoDaComunidadePO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/tests/T001KnivesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/T001KnivesTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/tests/T002GlovesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/T002GlovesTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/tests/T003Ak47Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/T003Ak47Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/T004AwpTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/T004AwpTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +77,7 @@
       <recent name="C:\Users\felip\DevOps\tasks-functional-tests\ProjetoSteam\src" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.T001KnivesTest.validarPrecoDasFacas">
+  <component name="RunManager" selected="TestNG.T003Ak47Test.validarPrecoDaAk47Vulcan">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -98,22 +104,6 @@
       <option name="resourceGroup" />
       <option name="stagingFolder" />
       <option name="subscription" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="T001KnivesTest.validarPrecoDasFacas" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ProjetoSteam" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.T001KnivesTest" />
-      <option name="METHOD_NAME" value="validarPrecoDasFacas" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -189,13 +179,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="T003Ak47Test.validarPrecoDaAk47Vulcan" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ProjetoSteam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.T003Ak47Test" />
+      <option name="METHOD_NAME" value="validarPrecoDaAk47Vulcan" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.T003Ak47Test.validarPrecoDaAk47Vulcan" />
         <item itemvalue="TestNG.T001KnivesTest.validarPrecoDasFacas" />
         <item itemvalue="TestNG.T002GlovesTest.validarPrecoDasLuvas" />
         <item itemvalue="TestNG.T003Ak47Test.validarPrecoDaAk47BombaDeCombustivel" />
         <item itemvalue="TestNG.T003Ak47Test" />
-        <item itemvalue="JUnit.T001KnivesTest.validarPrecoDasFacas" />
       </list>
     </recent_temporary>
   </component>

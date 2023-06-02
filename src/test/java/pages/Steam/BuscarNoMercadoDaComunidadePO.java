@@ -71,13 +71,15 @@ public class BuscarNoMercadoDaComunidadePO extends BasePage {
 
         valorItemTratado = tratarValorSkin(listaPrecos.get(0).getText());
 
-        if (tratarValorSkin(listaPrecos.get(0).getText()) <= 15000){
-            System.out.println("Valor da Skin é MENOR OU IGUAL que 150 reais");
+        if (tratarValorSkin(listaPrecos.get(0).getText()) <= 3000){
+            System.out.println("Valor da Skin é MENOR OU IGUAL que 30 dolares (150 reais)");
+
             EnviarEmail.enviarEmail(nomeItem,valorItem,linkItem);
 
             comprarSkin = true;
+
         }else{
-            System.out.println("Valor da Skin é MAIOR que 150 reais");
+            System.out.println("Valor da Skin é MAIOR que 30 dolares (150 reais)");
             comprarSkin = false;
         }
 
@@ -88,7 +90,8 @@ public class BuscarNoMercadoDaComunidadePO extends BasePage {
     public int tratarValorSkin(String preco){
 
         preco = preco.replace(" ", "");
-        preco = preco.replace("R$", "");
+        preco = preco.replace("$", "");
+        preco = preco.replace("USD", "");
         preco = preco.replace(",", "");
         preco = preco.replace(".", "");
 
@@ -96,20 +99,5 @@ public class BuscarNoMercadoDaComunidadePO extends BasePage {
 
         return valor;
     }
-
-    public String getNomeItem(){
-        return nomeItem;
-    }
-    public String getValorItem(){
-        return valorItem;
-    }
-
-    public int getValorItemTratado(){
-        return valorItemTratado;
-    }
-    public String getLinkItem(){
-        return linkItem;
-    }
-
 
 }
