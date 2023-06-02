@@ -8,7 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ccebf2e8-52ed-46c2-b2a6-3814c680d9ca" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/Steam/BuscarNoMercadoDaComunidadePO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Steam/BuscarNoMercadoDaComunidadePO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/T003Ak47Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/T003Ak47Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +64,7 @@
       <recent name="C:\Users\felip\DevOps\tasks-functional-tests\ProjetoSteam\src" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.T003Ak47Test.validarPrecoDaAk47Vulcan">
+  <component name="RunManager" selected="TestNG.T003Ak47Test">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -185,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.T003Ak47Test" />
         <item itemvalue="TestNG.T003Ak47Test.validarPrecoDaAk47Vulcan" />
         <item itemvalue="TestNG.T001KnivesTest.validarPrecoDasFacas" />
         <item itemvalue="TestNG.T002GlovesTest.validarPrecoDasLuvas" />
         <item itemvalue="TestNG.T003Ak47Test.validarPrecoDaAk47BombaDeCombustivel" />
-        <item itemvalue="TestNG.T003Ak47Test" />
       </list>
     </recent_temporary>
   </component>

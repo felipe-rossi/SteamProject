@@ -36,7 +36,7 @@ public class T003Ak47Test {
     }
 
     @org.testng.annotations.Test
-    public void validarPrecoDaAk47SerpenteDeFogo(){
+    public void validar002PrecoDaAk47SerpenteDeFogo(){
         boolean comprarSkin = new HomeSteamPO(driver)
                 .clicarNaOpcaoMercadoComunidade()
                 .escolherTipoDeProdutoQueVaiSerPesquisa("tag_weapon_ak47")
@@ -47,7 +47,7 @@ public class T003Ak47Test {
     }
 
     @org.testng.annotations.Test
-    public void validarPrecoDaAk47Hidroponica(){
+    public void validar003PrecoDaAk47Hidroponica(){
         boolean comprarSkin = new HomeSteamPO(driver)
                 .clicarNaOpcaoMercadoComunidade()
                 .escolherTipoDeProdutoQueVaiSerPesquisa("tag_weapon_ak47")
@@ -58,7 +58,7 @@ public class T003Ak47Test {
     }
 
     @org.testng.annotations.Test
-    public void validarPrecoDaAk47Viajante(){
+    public void validar004PrecoDaAk47Viajante(){
         boolean comprarSkin = new HomeSteamPO(driver)
                 .clicarNaOpcaoMercadoComunidade()
                 .escolherTipoDeProdutoQueVaiSerPesquisa("tag_weapon_ak47")
@@ -69,7 +69,7 @@ public class T003Ak47Test {
     }
 
     @org.testng.annotations.Test
-    public void validarPrecoDaAk47OncaPintada(){
+    public void validar005PrecoDaAk47OncaPintada(){
         boolean comprarSkin = new HomeSteamPO(driver)
                 .clicarNaOpcaoMercadoComunidade()
                 .escolherTipoDeProdutoQueVaiSerPesquisa("tag_weapon_ak47")
@@ -80,7 +80,7 @@ public class T003Ak47Test {
     }
 
     @org.testng.annotations.Test
-    public void validarPrecoDaAk47AquecimentoDeAco(){
+    public void validar006PrecoDaAk47AquecimentoDeAco(){
         boolean comprarSkin = new HomeSteamPO(driver)
                 .clicarNaOpcaoMercadoComunidade()
                 .escolherTipoDeProdutoQueVaiSerPesquisa("tag_weapon_ak47")
@@ -88,10 +88,16 @@ public class T003Ak47Test {
                 .ordernarPeloMenorPreco()
                 .validarValorDaSkin();
         Assert.assertFalse(comprarSkin);
+
+        try {
+            Thread.sleep(10000);
+        }catch (Exception e){
+            System.out.println("Erro ao esperar 10s");
+        }
     }
 
     @org.testng.annotations.Test
-    public void validarPrecoDaAk47Vulcan(){
+    public void validar007PrecoDaAk47Vulcan(){
         boolean comprarSkin = new HomeSteamPO(driver)
                 .clicarNaOpcaoMercadoComunidade()
                 .escolherTipoDeProdutoQueVaiSerPesquisa("tag_weapon_ak47")
@@ -99,10 +105,15 @@ public class T003Ak47Test {
                 .ordernarPeloMenorPreco()
                 .validarValorDaSkin();
         Assert.assertFalse(comprarSkin);
+        try {
+            Thread.sleep(10000);
+        }catch (Exception e){
+            System.out.println("Erro ao esperar 10s");
+        }
     }
 
     @Test
-    public void validarPrecoDaAk47BombaDeCombustivel(){
+    public void validar008PrecoDaAk47BombaDeCombustivel(){
         boolean comprarSkin = new HomeSteamPO(driver)
                 .clicarNaOpcaoMercadoComunidade()
                 .escolherTipoDeProdutoQueVaiSerPesquisa("tag_weapon_ak47")
