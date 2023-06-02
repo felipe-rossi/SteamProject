@@ -38,6 +38,7 @@ public class BuscarNoMercadoDaComunidadePO extends BasePage {
 
     public BuscarNoMercadoDaComunidadePO buscarSkin(String nomeSkin){
         WebElement campoPesquisa = driver.findElement(By.id("findItemsSearchBox"));
+        wait.until(ExpectedConditions.visibilityOf(campoPesquisa));
         campoPesquisa.sendKeys(nomeSkin);
         campoPesquisa.sendKeys(Keys.ENTER);
 
