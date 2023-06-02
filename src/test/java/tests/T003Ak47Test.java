@@ -21,14 +21,14 @@ public class T003Ak47Test {
         CreateDriver cd = new CreateDriver();
         driver = cd.createWebdriver();
 
-        driver.get("https://steamcommunity.com/profiles/76561199508799871/");
+        driver.get("https://store.steampowered.com/?l=brazilian");
     }
 
     @org.testng.annotations.Test
     public void validar001PrecoDaAk47RaioX(){
         boolean comprarSkin = new HomeSteamPO(driver)
-//                .clicarEmIniciarSessao()
-//                .realizarLogin("feliperossisteam","EL3+X]r+1r")
+                .clicarEmIniciarSessao()
+                .realizarLogin("feliperossisteam","EL3+X]r+1r")
                 .clicarNaOpcaoMercadoComunidade()
                 .escolherTipoDeProdutoQueVaiSerPesquisa("tag_weapon_ak47")
                 .buscarSkin("AK-47 | Raio-X")

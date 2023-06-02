@@ -10,13 +10,12 @@
     <list default="true" id="ccebf2e8-52ed-46c2-b2a6-3814c680d9ca" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Suporte/CreateDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Suporte/CreateDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/Steam/LoginPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Steam/LoginPO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/T001KnivesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/T001KnivesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/T002GlovesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/T002GlovesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/T003Ak47Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/T003Ak47Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/T004AwpTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/T004AwpTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Suporte/CreateDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Suporte/CreateDriver.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/tests/T001KnivesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/T001KnivesTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/T002GlovesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/T002GlovesTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/tests/T003Ak47Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/T003Ak47Test.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

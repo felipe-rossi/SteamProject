@@ -22,15 +22,15 @@ public class T002GlovesTest {
         CreateDriver cd = new CreateDriver();
         driver = cd.createWebdriver();
 
-        driver.get("https://steamcommunity.com/profiles/76561199508799871/");
+        driver.get("https://store.steampowered.com/?l=brazilian");
     }
 
 
     @Test
     public void validarPrecoDasLuvas(){
         boolean comprarSkin = new HomeSteamPO(driver)
-//                .clicarEmIniciarSessao()
-//                .realizarLogin("feliperossisteam","EL3+X]r+1r")
+                .clicarEmIniciarSessao()
+                .realizarLogin("feliperossisteam","EL3+X]r+1r")
                 .clicarNaOpcaoMercadoComunidade()
                 .escolherTipoDeProdutoQueVaiSerPesquisa("tag_730_Type_Type_Hands")
                 .ordernarPeloMenorPreco()
