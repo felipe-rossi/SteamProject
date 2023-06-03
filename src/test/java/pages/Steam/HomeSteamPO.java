@@ -29,12 +29,6 @@ public class HomeSteamPO extends BasePage {
         return new MercadoComunidadePO(driver);
     }
 
-    public LoginPO clicarEmIniciarSessao(){
-        WebElement btnIniciarSessao = driver.findElement(By.linkText("iniciar sessão"));
-        btnIniciarSessao.click();
-
-        return new LoginPO(driver);
-    }
 
 //    public HomeSteamPO selecionarLinguagemPortugues(){
 //        WebElement btnIdioma = driver.findElement(By.id("language_pulldown"));

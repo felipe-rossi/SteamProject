@@ -7,16 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ccebf2e8-52ed-46c2-b2a6-3814c680d9ca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/jenkinsfile/m4a4s/SteamProject-M4A4S.gdsl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/T005M4A4STest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/Outlook/CaixaDeEntradaPO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/Outlook/LoginPageOutlookPO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/Steam/LoginPO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/T003Ak47Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/T003Ak47Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/T004AwpTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/T004AwpTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="ccebf2e8-52ed-46c2-b2a6-3814c680d9ca" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
