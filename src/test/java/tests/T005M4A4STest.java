@@ -30,11 +30,6 @@ public class T005M4A4STest {
                 .validarValorDaSkin();
         Assert.assertFalse(comprarSkin);
 
-        try {
-            Thread.sleep(30000);
-        }catch (Exception e){
-            System.out.println("Erro ao esperar 10s");
-        }
     }
 
     @org.testng.annotations.Test
@@ -47,11 +42,6 @@ public class T005M4A4STest {
                 .validarValorDaSkin();
         Assert.assertFalse(comprarSkin);
 
-        try {
-            Thread.sleep(30000);
-        }catch (Exception e){
-            System.out.println("Erro ao esperar 10s");
-        }
     }
 
     @org.testng.annotations.Test
@@ -64,11 +54,6 @@ public class T005M4A4STest {
                 .validarValorDaSkin();
         Assert.assertFalse(comprarSkin);
 
-        try {
-            Thread.sleep(30000);
-        }catch (Exception e){
-            System.out.println("Erro ao esperar 10s");
-        }
     }
 
     @org.testng.annotations.Test
@@ -81,11 +66,7 @@ public class T005M4A4STest {
                 .validarValorDaSkin();
         Assert.assertFalse(comprarSkin);
 
-        try {
-            Thread.sleep(30000);
-        }catch (Exception e){
-            System.out.println("Erro ao esperar 10s");
-        }
+
     }
 
     @org.testng.annotations.Test
@@ -99,9 +80,9 @@ public class T005M4A4STest {
         Assert.assertFalse(comprarSkin);
 
         try {
-            Thread.sleep(30000);
+            Thread.sleep(15000);
         }catch (Exception e){
-            System.out.println("Erro ao esperar 10s");
+            System.out.println("Erro ao esperar 30s");
         }
     }
 

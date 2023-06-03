@@ -31,11 +31,6 @@ public class T004AwpTest {
                 .validarValorDaSkin();
         Assert.assertFalse(comprarSkin);
 
-        try {
-            Thread.sleep(10000);
-        }catch (Exception e){
-            System.out.println("Erro ao esperar 10s");
-        }
     }
 
     @org.testng.annotations.Test
@@ -48,11 +43,6 @@ public class T004AwpTest {
                 .validarValorDaSkin();
         Assert.assertFalse(comprarSkin);
 
-        try {
-            Thread.sleep(15000);
-        }catch (Exception e){
-            System.out.println("Erro ao esperar 10s");
-        }
     }
 
     @org.testng.annotations.Test
@@ -66,9 +56,9 @@ public class T004AwpTest {
         Assert.assertFalse(comprarSkin);
 
         try {
-            Thread.sleep(10000);
+            Thread.sleep(15000);
         }catch (Exception e){
-            System.out.println("Erro ao esperar 10s");
+            System.out.println("Erro ao esperar 15s");
         }
     }
 

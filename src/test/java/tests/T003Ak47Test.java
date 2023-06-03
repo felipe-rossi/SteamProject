@@ -68,11 +68,6 @@ public class T003Ak47Test {
                 .validarValorDaSkin();
         Assert.assertFalse(comprarSkin);
 
-        try {
-            Thread.sleep(35000);
-        }catch (Exception e){
-            System.out.println("Erro ao esperar 30s");
-        }
     }
 
     @org.testng.annotations.Test
@@ -85,11 +80,6 @@ public class T003Ak47Test {
                 .validarValorDaSkin();
         Assert.assertFalse(comprarSkin);
 
-        try {
-            Thread.sleep(35000);
-        }catch (Exception e){
-            System.out.println("Erro ao esperar 30s");
-        }
     }
 
     @org.testng.annotations.Test
@@ -102,11 +92,6 @@ public class T003Ak47Test {
                 .validarValorDaSkin();
         Assert.assertFalse(comprarSkin);
 
-        try {
-            Thread.sleep(35000);
-        }catch (Exception e){
-            System.out.println("Erro ao esperar 30s");
-        }
     }
 
     @org.testng.annotations.Test
@@ -119,11 +104,6 @@ public class T003Ak47Test {
                 .validarValorDaSkin();
         Assert.assertFalse(comprarSkin);
 
-        try {
-            Thread.sleep(35000);
-        }catch (Exception e){
-            System.out.println("Erro ao esperar 30s");
-        }
     }
 
     @org.testng.annotations.Test
@@ -136,7 +116,7 @@ public class T003Ak47Test {
                 .validarValorDaSkin();
         Assert.assertFalse(comprarSkin);
         try {
-            Thread.sleep(35000);
+            Thread.sleep(30000);
         }catch (Exception e){
             System.out.println("Erro ao esperar 30s");
         }
