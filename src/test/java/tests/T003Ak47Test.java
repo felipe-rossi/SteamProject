@@ -37,7 +37,7 @@ public class T003Ak47Test {
         try {
             Thread.sleep(30000);
         }catch (Exception e){
-            System.out.println("Erro ao esperar 10s");
+            System.out.println("Erro ao esperar 30s");
         }
     }
 
@@ -54,7 +54,7 @@ public class T003Ak47Test {
         try {
             Thread.sleep(30000);
         }catch (Exception e){
-            System.out.println("Erro ao esperar 10s");
+            System.out.println("Erro ao esperar 30s");
         }
     }
 
@@ -71,7 +71,7 @@ public class T003Ak47Test {
         try {
             Thread.sleep(30000);
         }catch (Exception e){
-            System.out.println("Erro ao esperar 10s");
+            System.out.println("Erro ao esperar 30s");
         }
     }
 
@@ -88,7 +88,7 @@ public class T003Ak47Test {
         try {
             Thread.sleep(30000);
         }catch (Exception e){
-            System.out.println("Erro ao esperar 10s");
+            System.out.println("Erro ao esperar 30s");
         }
     }
 
@@ -105,7 +105,7 @@ public class T003Ak47Test {
         try {
             Thread.sleep(30000);
         }catch (Exception e){
-            System.out.println("Erro ao esperar 10s");
+            System.out.println("Erro ao esperar 30s");
         }
     }
 
@@ -122,7 +122,7 @@ public class T003Ak47Test {
         try {
             Thread.sleep(30000);
         }catch (Exception e){
-            System.out.println("Erro ao esperar 10s");
+            System.out.println("Erro ao esperar 30s");
         }
     }
 
@@ -138,7 +138,7 @@ public class T003Ak47Test {
         try {
             Thread.sleep(30000);
         }catch (Exception e){
-            System.out.println("Erro ao esperar 10s");
+            System.out.println("Erro ao esperar 30s");
         }
     }
 
@@ -155,7 +155,7 @@ public class T003Ak47Test {
         try {
             Thread.sleep(30000);
         }catch (Exception e){
-            System.out.println("Erro ao esperar 10s");
+            System.out.println("Erro ao esperar 30s");
         }
     }
 
