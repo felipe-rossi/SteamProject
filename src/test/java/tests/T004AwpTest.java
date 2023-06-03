@@ -22,11 +22,11 @@ public class T004AwpTest {
     }
 
     @org.testng.annotations.Test
-    public void validar001PrecoDaAwpDescargaEletrica(){
+    public void validar001PrecoDaAwpDegrade(){
         boolean comprarSkin = new HomeSteamPO(driver)
                 .clicarNaOpcaoMercadoComunidade()
                 .escolherTipoDeProdutoQueVaiSerPesquisa("tag_weapon_awp")
-                .buscarSkin("AWP | Descarga Elétrica")
+                .buscarSkin("AWP | Degradê")
                 .ordernarPeloMenorPreco()
                 .validarValorDaSkin();
         Assert.assertFalse(comprarSkin);
@@ -39,17 +39,17 @@ public class T004AwpTest {
     }
 
     @org.testng.annotations.Test
-    public void validar002PrecoDaAwpDegrade(){
+    public void validar002PrecoDaAwpDescargaEletrica(){
         boolean comprarSkin = new HomeSteamPO(driver)
                 .clicarNaOpcaoMercadoComunidade()
                 .escolherTipoDeProdutoQueVaiSerPesquisa("tag_weapon_awp")
-                .buscarSkin("AWP | Degradê")
+                .buscarSkin("AWP | Descarga Elétrica")
                 .ordernarPeloMenorPreco()
                 .validarValorDaSkin();
         Assert.assertFalse(comprarSkin);
 
         try {
-            Thread.sleep(10000);
+            Thread.sleep(15000);
         }catch (Exception e){
             System.out.println("Erro ao esperar 10s");
         }

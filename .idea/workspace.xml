@@ -8,8 +8,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ccebf2e8-52ed-46c2-b2a6-3814c680d9ca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/jenkinsfile/awp/SteamProject-AWP.gdsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkinsfile/m4a4s/SteamProject-M4A4S.gdsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/T005M4A4STest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/Outlook/CaixaDeEntradaPO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/Outlook/LoginPageOutlookPO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/Steam/LoginPO.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/T003Ak47Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/T003Ak47Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/T004AwpTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/T004AwpTest.java" afterDir="false" />
     </list>
@@ -47,7 +51,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/felip/Documents/SteamProject/jenkinsfile/awp",
+    "last_opened_file_path": "C:/Users/felip/Documents/SteamProject/jenkinsfile/m4a4s",
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
@@ -57,6 +61,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\felip\Documents\SteamProject\jenkinsfile\m4a4s" />
       <recent name="C:\Users\felip\Documents\SteamProject\jenkinsfile\awp" />
       <recent name="C:\Users\felip\Documents\SteamProject\jenkinsfile\ak47" />
       <recent name="C:\Users\felip\Documents\SteamProject\jenkinsfile\gloves" />
