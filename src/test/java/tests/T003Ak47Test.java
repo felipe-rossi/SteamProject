@@ -35,7 +35,7 @@ public class T003Ak47Test {
         Assert.assertFalse(comprarSkin);
 
         try {
-            Thread.sleep(30000);
+            Thread.sleep(35000);
         }catch (Exception e){
             System.out.println("Erro ao esperar 30s");
         }
@@ -52,7 +52,7 @@ public class T003Ak47Test {
         Assert.assertFalse(comprarSkin);
 
         try {
-            Thread.sleep(30000);
+            Thread.sleep(35000);
         }catch (Exception e){
             System.out.println("Erro ao esperar 30s");
         }
@@ -69,7 +69,7 @@ public class T003Ak47Test {
         Assert.assertFalse(comprarSkin);
 
         try {
-            Thread.sleep(30000);
+            Thread.sleep(35000);
         }catch (Exception e){
             System.out.println("Erro ao esperar 30s");
         }
@@ -86,7 +86,7 @@ public class T003Ak47Test {
         Assert.assertFalse(comprarSkin);
 
         try {
-            Thread.sleep(30000);
+            Thread.sleep(35000);
         }catch (Exception e){
             System.out.println("Erro ao esperar 30s");
         }
@@ -103,7 +103,7 @@ public class T003Ak47Test {
         Assert.assertFalse(comprarSkin);
 
         try {
-            Thread.sleep(30000);
+            Thread.sleep(35000);
         }catch (Exception e){
             System.out.println("Erro ao esperar 30s");
         }
@@ -120,7 +120,7 @@ public class T003Ak47Test {
         Assert.assertFalse(comprarSkin);
 
         try {
-            Thread.sleep(30000);
+            Thread.sleep(35000);
         }catch (Exception e){
             System.out.println("Erro ao esperar 30s");
         }
@@ -136,7 +136,7 @@ public class T003Ak47Test {
                 .validarValorDaSkin();
         Assert.assertFalse(comprarSkin);
         try {
-            Thread.sleep(30000);
+            Thread.sleep(35000);
         }catch (Exception e){
             System.out.println("Erro ao esperar 30s");
         }
