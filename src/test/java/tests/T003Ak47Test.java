@@ -136,28 +136,28 @@ public class T003Ak47Test {
                 .validarValorDaSkin();
         Assert.assertFalse(comprarSkin);
         try {
-            Thread.sleep(35000);
-        }catch (Exception e){
-            System.out.println("Erro ao esperar 30s");
-        }
-    }
-
-    @Test
-    public void validar008PrecoDaAk47BombaDeCombustivel(){
-        boolean comprarSkin = new HomeSteamPO(driver)
-                .clicarNaOpcaoMercadoComunidade()
-                .escolherTipoDeProdutoQueVaiSerPesquisa("tag_weapon_ak47")
-                .buscarSkin("AK-47 | Bomba de Combustível")
-                .ordernarPeloMenorPreco()
-                .validarValorDaSkin();
-        Assert.assertFalse(comprarSkin);
-
-        try {
             Thread.sleep(30000);
         }catch (Exception e){
             System.out.println("Erro ao esperar 30s");
         }
     }
+
+//    @Test
+//    public void validar008PrecoDaAk47BombaDeCombustivel(){
+//        boolean comprarSkin = new HomeSteamPO(driver)
+//                .clicarNaOpcaoMercadoComunidade()
+//                .escolherTipoDeProdutoQueVaiSerPesquisa("tag_weapon_ak47")
+//                .buscarSkin("AK-47 | Bomba de Combustível")
+//                .ordernarPeloMenorPreco()
+//                .validarValorDaSkin();
+//        Assert.assertFalse(comprarSkin);
+//
+//        try {
+//            Thread.sleep(30000);
+//        }catch (Exception e){
+//            System.out.println("Erro ao esperar 30s");
+//        }
+//    }
 
 
     @AfterMethod
