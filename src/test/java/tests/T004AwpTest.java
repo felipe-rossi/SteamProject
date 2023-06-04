@@ -32,7 +32,7 @@ public class T004AwpTest {
         Assert.assertFalse(comprarSkin);
 
         try {
-            Thread.sleep(5000);
+            Thread.sleep(30000);
         }catch (Exception e){
             System.out.println("Erro ao esperar 5s");
         }
@@ -50,7 +50,7 @@ public class T004AwpTest {
         Assert.assertFalse(comprarSkin);
 
         try {
-            Thread.sleep(5000);
+            Thread.sleep(30000);
         }catch (Exception e){
             System.out.println("Erro ao esperar 5s");
         }
@@ -68,9 +68,9 @@ public class T004AwpTest {
         Assert.assertFalse(comprarSkin);
 
         try {
-            Thread.sleep(10000);
+            Thread.sleep(30000);
         }catch (Exception e){
-            System.out.println("Erro ao esperar 15s");
+            System.out.println("Erro ao esperar 5s");
         }
     }
 
