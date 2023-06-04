@@ -34,6 +34,12 @@ public class T002GlovesTest {
                 .ordernarPeloMenorPreco()
                 .validarValorDaSkin();
         Assert.assertFalse(comprarSkin);
+
+        try {
+            Thread.sleep(15000);
+        }catch (Exception e){
+            System.out.println("Erro ao esperar 5s");
+        }
     }
 
 
