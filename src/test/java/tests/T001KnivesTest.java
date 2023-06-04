@@ -36,9 +36,9 @@ public class T001KnivesTest {
         Assert.assertFalse(comprarSkin);
 
         try {
-            Thread.sleep(15000);
+            Thread.sleep(35000);
         }catch (Exception e){
-            System.out.println("Erro ao esperar 5s");
+            System.out.println("Erro ao esperar 35s");
         }
     }
 
