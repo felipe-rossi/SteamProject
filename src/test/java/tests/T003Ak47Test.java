@@ -35,9 +35,9 @@ public class T003Ak47Test {
         Assert.assertFalse(comprarSkin);
 
         try {
-            Thread.sleep(35000);
+            Thread.sleep(5000);
         }catch (Exception e){
-            System.out.println("Erro ao esperar 30s");
+            System.out.println("Erro ao esperar 5s");
         }
     }
 
@@ -52,9 +52,9 @@ public class T003Ak47Test {
         Assert.assertFalse(comprarSkin);
 
         try {
-            Thread.sleep(35000);
+            Thread.sleep(5000);
         }catch (Exception e){
-            System.out.println("Erro ao esperar 30s");
+            System.out.println("Erro ao esperar 5s");
         }
     }
 
@@ -68,6 +68,12 @@ public class T003Ak47Test {
                 .validarValorDaSkin();
         Assert.assertFalse(comprarSkin);
 
+        try {
+            Thread.sleep(5000);
+        }catch (Exception e){
+            System.out.println("Erro ao esperar 5s");
+        }
+
     }
 
     @org.testng.annotations.Test
@@ -79,6 +85,12 @@ public class T003Ak47Test {
                 .ordernarPeloMenorPreco()
                 .validarValorDaSkin();
         Assert.assertFalse(comprarSkin);
+
+        try {
+            Thread.sleep(5000);
+        }catch (Exception e){
+            System.out.println("Erro ao esperar 5s");
+        }
 
     }
 
@@ -92,6 +104,12 @@ public class T003Ak47Test {
                 .validarValorDaSkin();
         Assert.assertFalse(comprarSkin);
 
+        try {
+            Thread.sleep(5000);
+        }catch (Exception e){
+            System.out.println("Erro ao esperar 5s");
+        }
+
     }
 
     @org.testng.annotations.Test
@@ -103,6 +121,12 @@ public class T003Ak47Test {
                 .ordernarPeloMenorPreco()
                 .validarValorDaSkin();
         Assert.assertFalse(comprarSkin);
+
+        try {
+            Thread.sleep(5000);
+        }catch (Exception e){
+            System.out.println("Erro ao esperar 5s");
+        }
 
     }
 
@@ -116,9 +140,9 @@ public class T003Ak47Test {
                 .validarValorDaSkin();
         Assert.assertFalse(comprarSkin);
         try {
-            Thread.sleep(30000);
+            Thread.sleep(10000);
         }catch (Exception e){
-            System.out.println("Erro ao esperar 30s");
+            System.out.println("Erro ao esperar 10s");
         }
     }
 
