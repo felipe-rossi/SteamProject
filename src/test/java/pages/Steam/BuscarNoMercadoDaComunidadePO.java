@@ -51,9 +51,9 @@ public class BuscarNoMercadoDaComunidadePO extends BasePage {
         wait.until(ExpectedConditions.textToBe(By.xpath("//span[@class='market_sort_arrow']"),"▲"));
 
         try{
-            Thread.sleep(3000);
+            Thread.sleep(5000);
         }catch (Exception e){
-            System.out.println("Erro ao esperar 3s");
+            System.out.println("Erro ao esperar 5s");
         }
 
         List<WebElement> listaNomesSkin = driver.findElements(By.xpath("//span[@class = 'market_listing_item_name']"));
