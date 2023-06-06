@@ -35,6 +35,12 @@ public class T001KnivesTest {
             .validarValorDaSkin();
         Assert.assertFalse(comprarSkin);
 
+        try {
+            Thread.sleep(30000);
+        }catch (Exception e){
+            System.out.println("Erro ao esperar 30s");
+        }
+
     }
 
 
