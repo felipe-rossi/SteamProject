@@ -36,9 +36,9 @@ public class T002GlovesTest {
         Assert.assertFalse(comprarSkin);
 
         try {
-            Thread.sleep(30000);
+            Thread.sleep(10000);
         }catch (Exception e){
-            System.out.println("Erro ao esperar 5s");
+            System.out.println("Erro ao esperar 10s");
         }
 
     }
