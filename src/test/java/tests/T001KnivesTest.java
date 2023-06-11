@@ -30,7 +30,7 @@ public class T001KnivesTest {
     public void validarPrecoDasFacas(){
             boolean comprarSkin = new HomeSteamPO(driver)
             .clicarNaOpcaoMercadoComunidade()
-            .escolherTipoDeProdutoQueVaiSerPesquisa("tag_730_Type_CSGO_Type_Knife")
+            .escolherTipoDeProdutoQueVaiSerPesquisa("tag_weapon_ak47") //tag_weapon_ak47 tag_730_Type_CSGO_Type_Knife
             .ordernarPeloMenorPreco()
             .validarValorDaSkin();
         Assert.assertFalse(comprarSkin);
