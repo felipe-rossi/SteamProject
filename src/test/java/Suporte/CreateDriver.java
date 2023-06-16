@@ -42,7 +42,6 @@ public class CreateDriver {
 
         FirefoxOptions fireOptions = new FirefoxOptions();
         fireOptions.addArguments("lang=pt-BR");
-        fireOptions.addArguments("--no-sandbox");
         fireOptions.addArguments("--disable-dev-shm-usage");
         fireOptions.setBinary("C:\\Program Files\\Mozilla Firefox\\firefox.exe");
 
