@@ -6,7 +6,6 @@ import org.openqa.selenium.WebDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Test;
 import pages.Steam.HomeSteamPO;
 
 public class T004AwpTest {
@@ -32,9 +31,9 @@ public class T004AwpTest {
         Assert.assertFalse(comprarSkin);
 
         try {
-            Thread.sleep(30000);
+            Thread.sleep(10000);
         }catch (Exception e){
-            System.out.println("Erro ao esperar 5s");
+            System.out.println("Erro ao esperar 10s");
         }
 
     }
@@ -50,9 +49,9 @@ public class T004AwpTest {
         Assert.assertFalse(comprarSkin);
 
         try {
-            Thread.sleep(30000);
+            Thread.sleep(10000);
         }catch (Exception e){
-            System.out.println("Erro ao esperar 5s");
+            System.out.println("Erro ao esperar 10s");
         }
 
     }
@@ -68,9 +67,9 @@ public class T004AwpTest {
         Assert.assertFalse(comprarSkin);
 
         try {
-            Thread.sleep(30000);
+            Thread.sleep(10000);
         }catch (Exception e){
-            System.out.println("Erro ao esperar 5s");
+            System.out.println("Erro ao esperar 10s");
         }
     }
 

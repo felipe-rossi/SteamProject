@@ -1,15 +1,12 @@
 package tests;
 
 import Suporte.CreateDriver;
-import Suporte.EnviarEmail;
-import Suporte.Screenshot;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import pages.Steam.BuscarNoMercadoDaComunidadePO;
 import pages.Steam.HomeSteamPO;
 
 public class T003Ak47Test {
@@ -35,9 +32,9 @@ public class T003Ak47Test {
         Assert.assertFalse(comprarSkin);
 
         try {
-            Thread.sleep(30000);
+            Thread.sleep(10000);
         }catch (Exception e){
-            System.out.println("Erro ao esperar 5s");
+            System.out.println("Erro ao esperar 10s");
         }
     }
 
@@ -52,9 +49,9 @@ public class T003Ak47Test {
         Assert.assertFalse(comprarSkin);
 
         try {
-            Thread.sleep(30000);
+            Thread.sleep(10000);
         }catch (Exception e){
-            System.out.println("Erro ao esperar 5s");
+            System.out.println("Erro ao esperar 10s");
         }
     }
 
@@ -69,9 +66,9 @@ public class T003Ak47Test {
         Assert.assertFalse(comprarSkin);
 
         try {
-            Thread.sleep(30000);
+            Thread.sleep(10000);
         }catch (Exception e){
-            System.out.println("Erro ao esperar 5s");
+            System.out.println("Erro ao esperar 10s");
         }
 
     }
@@ -87,9 +84,9 @@ public class T003Ak47Test {
         Assert.assertFalse(comprarSkin);
 
         try {
-            Thread.sleep(30000);
+            Thread.sleep(10000);
         }catch (Exception e){
-            System.out.println("Erro ao esperar 5s");
+            System.out.println("Erro ao esperar 10s");
         }
 
     }
@@ -105,9 +102,9 @@ public class T003Ak47Test {
         Assert.assertFalse(comprarSkin);
 
         try {
-            Thread.sleep(30000);
+            Thread.sleep(10000);
         }catch (Exception e){
-            System.out.println("Erro ao esperar 5s");
+            System.out.println("Erro ao esperar 10s");
         }
 
     }
@@ -123,9 +120,9 @@ public class T003Ak47Test {
         Assert.assertFalse(comprarSkin);
 
         try {
-            Thread.sleep(30000);
+            Thread.sleep(10000);
         }catch (Exception e){
-            System.out.println("Erro ao esperar 5s");
+            System.out.println("Erro ao esperar 10s");
         }
 
     }
@@ -141,28 +138,28 @@ public class T003Ak47Test {
         Assert.assertFalse(comprarSkin);
 
         try {
-            Thread.sleep(30000);
+            Thread.sleep(10000);
         }catch (Exception e){
-            System.out.println("Erro ao esperar 5s");
+            System.out.println("Erro ao esperar 10s");
         }
     }
 
-//    @Test
-//    public void validar008PrecoDaAk47BombaDeCombustivel(){
-//        boolean comprarSkin = new HomeSteamPO(driver)
-//                .clicarNaOpcaoMercadoComunidade()
-//                .escolherTipoDeProdutoQueVaiSerPesquisa("tag_weapon_ak47")
-//                .buscarSkin("AK-47 | Bomba de Combustível")
-//                .ordernarPeloMenorPreco()
-//                .validarValorDaSkin();
-//        Assert.assertFalse(comprarSkin);
-//
-//        try {
-//            Thread.sleep(30000);
-//        }catch (Exception e){
-//            System.out.println("Erro ao esperar 30s");
-//        }
-//    }
+    @Test
+    public void validar008PrecoDaAk47BombaDeCombustivel(){
+        boolean comprarSkin = new HomeSteamPO(driver)
+                .clicarNaOpcaoMercadoComunidade()
+                .escolherTipoDeProdutoQueVaiSerPesquisa("tag_weapon_ak47")
+                .buscarSkin("AK-47 | Bomba de Combustível")
+                .ordernarPeloMenorPreco()
+                .validarValorDaSkin();
+        Assert.assertFalse(comprarSkin);
+
+        try {
+            Thread.sleep(10000);
+        }catch (Exception e){
+            System.out.println("Erro ao esperar 10s");
+        }
+    }
 
 
     @AfterMethod
