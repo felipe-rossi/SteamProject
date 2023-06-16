@@ -19,7 +19,7 @@ import java.util.Set;
 
 public class CreateDriver {
 
-    public WebDriver createWebdriver() {
+    public WebDriver createWebdriverGoogleChrome() {
 
         System.setProperty("webdriver.chrome.driver","chromedriver.exe");
 
@@ -35,4 +35,23 @@ public class CreateDriver {
         return driver;
 
     }
+
+    public WebDriver createWebdriverFirexox() {
+
+        System.setProperty("webdriver.gecko.driver","geckodriver.exe");
+
+        FirefoxOptions fireOptions = new FirefoxOptions();
+        fireOptions.addArguments("lang=pt-BR");
+        fireOptions.addArguments("--no-sandbox");
+        fireOptions.addArguments("--disable-dev-shm-usage");
+        fireOptions.setBinary("C:\\Program Files\\Mozilla Firefox\\firefox.exe");
+
+        WebDriver driver = new FirefoxDriver(fireOptions);
+        driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+
+        return driver;
+
+    }
+
 }

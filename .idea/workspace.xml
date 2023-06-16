@@ -7,7 +7,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ccebf2e8-52ed-46c2-b2a6-3814c680d9ca" name="Changes" comment="" />
+    <list default="true" id="ccebf2e8-52ed-46c2-b2a6-3814c680d9ca" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/geckodriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Suporte/CreateDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Suporte/CreateDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/Steam/BuscarNoMercadoDaComunidadePO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Steam/BuscarNoMercadoDaComunidadePO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/T001KnivesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/T001KnivesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/T002GlovesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/T002GlovesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/T003Ak47Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/T003Ak47Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/T004AwpTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/T004AwpTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/T005M4A4STest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/T005M4A4STest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Suporte/CreateDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Suporte/CreateDriver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/Outlook/CaixaDeEntradaPO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/Outlook/LoginPageOutlookPO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/Steam/BuscarNoMercadoDaComunidadePO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/Steam/BuscarNoMercadoDaComunidadePO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/Steam/HomeSteamPO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/Steam/HomeSteamPO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/Steam/LoginPO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/T001KnivesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/T001KnivesTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/T002GlovesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/T002GlovesTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/T003Ak47Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/T003Ak47Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/T004AwpTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/T004AwpTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,7 +83,7 @@
       <recent name="C:\Users\felip\DevOps\tasks-functional-tests\ProjetoSteam\src" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.T003Ak47Test">
+  <component name="RunManager" selected="TestNG.T003Ak47Test.validar001PrecoDaAk47RaioX">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -94,42 +114,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T001KnivesTest.validarPrecoDasFacas" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ProjetoSteam" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.T001KnivesTest" />
-      <option name="METHOD_NAME" value="validarPrecoDasFacas" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="T002GlovesTest.validarPrecoDasLuvas" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ProjetoSteam" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.T002GlovesTest" />
-      <option name="METHOD_NAME" value="validarPrecoDasLuvas" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="T003Ak47Test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ProjetoSteam" />
       <extension name="coverage">
@@ -147,7 +131,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T003Ak47Test.validarPrecoDaAk47BombaDeCombustivel" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="T003Ak47Test.validar001PrecoDaAk47RaioX" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ProjetoSteam" />
       <extension name="coverage">
         <pattern>
@@ -157,7 +141,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.T003Ak47Test" />
-      <option name="METHOD_NAME" value="validarPrecoDaAk47BombaDeCombustivel" />
+      <option name="METHOD_NAME" value="validar001PrecoDaAk47RaioX" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -183,13 +167,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="T004AwpTest.validar001PrecoDaAwpDegrade" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ProjetoSteam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.T004AwpTest" />
+      <option name="METHOD_NAME" value="validar001PrecoDaAwpDegrade" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T005M4A4STest.validar002PrecoDaM4A4SPerigoIminente" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ProjetoSteam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.T005M4A4STest" />
+      <option name="METHOD_NAME" value="validar002PrecoDaM4A4SPerigoIminente" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.T003Ak47Test.validar001PrecoDaAk47RaioX" />
+        <item itemvalue="TestNG.T005M4A4STest.validar002PrecoDaM4A4SPerigoIminente" />
+        <item itemvalue="TestNG.T004AwpTest.validar001PrecoDaAwpDegrade" />
         <item itemvalue="TestNG.T003Ak47Test" />
         <item itemvalue="TestNG.T003Ak47Test.validarPrecoDaAk47Vulcan" />
-        <item itemvalue="TestNG.T001KnivesTest.validarPrecoDasFacas" />
-        <item itemvalue="TestNG.T002GlovesTest.validarPrecoDasLuvas" />
-        <item itemvalue="TestNG.T003Ak47Test.validarPrecoDaAk47BombaDeCombustivel" />
       </list>
     </recent_temporary>
   </component>

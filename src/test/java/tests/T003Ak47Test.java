@@ -16,7 +16,7 @@ public class T003Ak47Test {
     @BeforeMethod
     public void setUp() {
         CreateDriver cd = new CreateDriver();
-        driver = cd.createWebdriver();
+        driver = cd.createWebdriverFirexox();
 
         driver.get("https://steamcommunity.com/market");
     }

@@ -42,6 +42,12 @@ public class BuscarNoMercadoDaComunidadePO extends BasePage {
         campoPesquisa.sendKeys(nomeSkin);
         campoPesquisa.sendKeys(Keys.ENTER);
 
+        try {
+            Thread.sleep(2000);
+        }catch (Exception e){
+            System.out.println("Erro ao esperar 2s");
+        }
+
         return this;
     }
 

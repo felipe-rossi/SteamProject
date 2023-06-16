@@ -15,7 +15,7 @@ public class T002GlovesTest {
     @BeforeMethod
     public void setUp() {
         CreateDriver cd = new CreateDriver();
-        driver = cd.createWebdriver();
+        driver = cd.createWebdriverGoogleChrome();
 
         driver.get("https://steamcommunity.com/market");
     }

@@ -15,7 +15,7 @@ public class T005M4A4STest {
     @BeforeMethod
     public void setUp() {
         CreateDriver cd = new CreateDriver();
-        driver = cd.createWebdriver();
+        driver = cd.createWebdriverFirexox();
 
         driver.get("https://steamcommunity.com/market");
     }
