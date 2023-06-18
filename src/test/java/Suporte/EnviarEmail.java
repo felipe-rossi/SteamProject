@@ -7,6 +7,7 @@ public class EnviarEmail {
 
     public static final String meuEmail = "felipaovs12@gmail.com";
     public static final String emailFlauzino = "rfgdfghgf@gmail.com";
+    public static final String emailCaio = "caioansanelli1@gmail.com";
     public static final String minhaSenha = "celokikjwolrjmoo";
 
     public static void enviarEmail(String nomeItem, String valorItem, String linkItem){
@@ -24,6 +25,7 @@ public class EnviarEmail {
             "Aqui está o link para comprar a skin: " + linkItem);
             email.addTo(meuEmail);
             email.addTo(emailFlauzino);
+            email.addTo(emailCaio);
             email.send();
 
         }catch (Exception e){
