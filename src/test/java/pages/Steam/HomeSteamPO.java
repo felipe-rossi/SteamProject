@@ -23,7 +23,7 @@ public class HomeSteamPO extends BasePage {
         WebElement menuComunidade = driver.findElement(By.linkText("COMUNIDADE"));
         new Actions(driver).moveToElement(menuComunidade).perform();
 
-        WebElement menuMercado = driver.findElement(By.linkText("MERCADO"));
+        WebElement menuMercado = driver.findElement(By.linkText("Mercado"));
         menuMercado.click();
 
         return new MercadoComunidadePO(driver);
