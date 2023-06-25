@@ -1,6 +1,7 @@
 package tests;
 
 import Suporte.CreateDriver;
+import Suporte.Screenshot;
 import org.junit.*;
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestResult;
@@ -12,13 +13,14 @@ import pages.Steam.HomeSteamPO;
 public class T001KnivesTest {
 
    private WebDriver driver;
+    Screenshot screenshot;
 
     @BeforeMethod
     public void setUp() {
         CreateDriver cd = new CreateDriver();
         driver = cd.createWebdriverGoogleChrome();
-
         driver.get("https://steamcommunity.com/market");
+        screenshot = new Screenshot(driver);
 
     }
 
@@ -44,9 +46,10 @@ public class T001KnivesTest {
     @AfterMethod
     public void tearDown(ITestResult result){
 
-//        if (result.getStatus() == ITestResult.FAILURE){
-//            Screenshot.takeScrennshot("C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\Steam Project - Knives\\target\\Screenshots\\Facas");
-//        }
+        if (result.getStatus() == ITestResult.FAILURE){
+            System.out.println("Deu erro");
+           screenshot.tirarPrint();
+        }
 
        driver.close();
     }

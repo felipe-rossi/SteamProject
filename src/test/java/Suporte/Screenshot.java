@@ -1,25 +1,24 @@
 package Suporte;
 
-import javax.imageio.ImageIO;
-import java.awt.*;
-import java.awt.image.BufferedImage;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+import org.apache.commons.io.FileUtils;
 import java.io.File;
 
-public class Screenshot {
+public class Screenshot extends BasePage{
 
-    public static void takeScrennshot(String caminhoPrint){
+    public Screenshot(WebDriver driver) {
+        super(driver);
+    }
+
+    public void tirarPrint(){
         try{
-            Robot rb = new Robot();
-            Rectangle rct = new Rectangle(1920,1080);
-
-            BufferedImage screenshot = rb.createScreenCapture(rct);
-            ImageIO.write(screenshot,"PNG", new File( caminhoPrint + ".png"));
-
-
+            File arquivo = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+            FileUtils.copyFile(arquivo, new File("Screenshots\\ultimo_erro.png"));
         }catch (Exception e){
-            System.out.println("Erro ao tirar print da tela");
+            System.out.println("Erro ao tirar print da tela: " + e.getMessage());
         }
-
 
     }
 }

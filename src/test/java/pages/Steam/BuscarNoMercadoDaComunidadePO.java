@@ -29,9 +29,15 @@ public class BuscarNoMercadoDaComunidadePO extends BasePage {
 
 
     public BuscarNoMercadoDaComunidadePO ordernarPeloMenorPreco(){
+
+       WebElement listaNomesSkinSemFiltro = driver.findElement(By.id("result_0_name"));
+       String nomePrimeiraSkin = listaNomesSkinSemFiltro.getText();
+
         WebElement ordernarpreco = driver.findElement(By.xpath("//*[@data-sorttype='price']"));
         wait.until(ExpectedConditions.visibilityOf(ordernarpreco));
         ordernarpreco.click();
+
+        wait.until(ExpectedConditions.refreshed(ExpectedConditions.invisibilityOfElementWithText(By.id("result_0_name"),nomePrimeiraSkin)));
 
         return this;
     }
@@ -54,17 +60,9 @@ public class BuscarNoMercadoDaComunidadePO extends BasePage {
     public boolean validarValorDaSkin(){
         comprarSkin = false;
 
-        wait.until(ExpectedConditions.textToBe(By.xpath("//span[@class='market_sort_arrow']"),"▲"));
-
-        try{
-            Thread.sleep(5000);
-        }catch (Exception e){
-            System.out.println("Erro ao esperar 5s");
-        }
-
-        List<WebElement> listaNomesSkin = driver.findElements(By.xpath("//span[@class = 'market_listing_item_name']"));
-        nomeItem = listaNomesSkin.get(0).getText();
-        System.out.println("Nome da Skin: " + listaNomesSkin.get(0).getText());
+        WebElement nomeSkinMaisBarata = driver.findElement(By.id("result_0_name"));
+        nomeItem = nomeSkinMaisBarata.getText();
+        System.out.println("Nome da Skin: " + nomeSkinMaisBarata.getText());
 
         List<WebElement> listaImagens = driver.findElements(By.xpath("//img[@class = 'market_listing_item_img']"));
         System.out.println("Link da imagem da Skin: " + listaImagens.get(0).getAttribute("src"));
