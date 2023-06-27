@@ -39,12 +39,6 @@ public class BuscarNoMercadoDaComunidadePO extends BasePage {
 
         wait.until(ExpectedConditions.refreshed(ExpectedConditions.invisibilityOfElementWithText(By.id("result_0_name"),nomePrimeiraSkin)));
 
-        try {
-            Thread.sleep(2000);
-        }catch (Exception e){
-            System.out.println("Erro ao esperar 2s");
-        }
-
         return this;
     }
 
