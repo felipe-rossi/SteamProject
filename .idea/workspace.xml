@@ -7,7 +7,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ccebf2e8-52ed-46c2-b2a6-3814c680d9ca" name="Changes" comment="" />
+    <list default="true" id="ccebf2e8-52ed-46c2-b2a6-3814c680d9ca" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkinsfile/ak47/SteamProject-AK47.gdsl" beforeDir="false" afterPath="$PROJECT_DIR$/jenkinsfile/ak47/SteamProject-AK47.gdsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkinsfile/awp/SteamProject-AWP.gdsl" beforeDir="false" afterPath="$PROJECT_DIR$/jenkinsfile/awp/SteamProject-AWP.gdsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkinsfile/gloves/SteamProject-Gloves.gdsl" beforeDir="false" afterPath="$PROJECT_DIR$/jenkinsfile/gloves/SteamProject-Gloves.gdsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkinsfile/knives/SteamProject-Knives.gdsl" beforeDir="false" afterPath="$PROJECT_DIR$/jenkinsfile/knives/SteamProject-Knives.gdsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkinsfile/m4a4s/SteamProject-M4A4S.gdsl" beforeDir="false" afterPath="$PROJECT_DIR$/jenkinsfile/m4a4s/SteamProject-M4A4S.gdsl" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

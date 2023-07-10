@@ -1,14 +1,10 @@
-pipeline{
+pipeline {
     agent any
-    stages{
-        stage('Iniciar Testes'){
-            steps{
+    stages {
+        stage('Iniciar Testes') {
+            steps {
                 bat "mvn test -Dtest=T002GlovesTest"
             }
         }
     }
-    post{
-        always{
-            junit allowEmptyResults: true, testResults: '/target/surefire-reports/*.xml'
-        }
-    }
+}
