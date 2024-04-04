@@ -8,7 +8,7 @@ import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import pages.Steam.HomeSteamPO;
+import Pages.HomeSteamPO;
 
 public class T001KnivesTest {
 
@@ -17,7 +17,7 @@ public class T001KnivesTest {
 
     @BeforeMethod
     public void setUp() {
-        CreateDriver cd = new CreateDriver();
+        CreateDriver cd = new CreateDriver(driver);
         driver = cd.createWebdriverGoogleChrome();
         driver.get("https://steamcommunity.com/market");
         screenshot = new Screenshot(driver);
@@ -27,10 +27,11 @@ public class T001KnivesTest {
 
     @Test
     public void validarPrecoDasFacas(){
-            boolean comprarSkin = new HomeSteamPO(driver)
+            boolean comprarSkin =
+           new HomeSteamPO(driver)
             .clicarNaOpcaoMercadoComunidade()
-            .escolherTipoDeProdutoQueVaiSerPesquisa("tag_730_Type_CSGO_Type_Knife") //tag_weapon_ak47 tag_730_Type_CSGO_Type_Knife
-            .ordernarPeloMenorPreco()
+            .escolherTipoDeProdutoQueVaiSerPesquisa("tag_CSGO_Type_Knife") //tag_weapon_ak47 tag_730_Type_CSGO_Type_Knife
+           .ordernarPeloMenorPreco()
             .validarValorDaSkin();
         Assert.assertFalse(comprarSkin);
 
@@ -48,7 +49,7 @@ public class T001KnivesTest {
 
         if (result.getStatus() == ITestResult.FAILURE){
             System.out.println("Deu erro");
-           screenshot.tirarPrint();
+            screenshot.tirarPrint();
         }
 
        driver.close();

@@ -7,14 +7,14 @@ import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import pages.Steam.HomeSteamPO;
+import Pages.HomeSteamPO;
 
 public class T002GlovesTest {
     private WebDriver driver;
 
     @BeforeMethod
     public void setUp() {
-        CreateDriver cd = new CreateDriver();
+        CreateDriver cd = new CreateDriver(driver);
         driver = cd.createWebdriverGoogleChrome();
 
         driver.get("https://steamcommunity.com/market");

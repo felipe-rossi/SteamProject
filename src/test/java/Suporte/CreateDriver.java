@@ -9,6 +9,9 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.Wait;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.*;
 import java.net.MalformedURLException;
@@ -18,6 +21,15 @@ import java.util.Set;
 
 
 public class CreateDriver {
+
+    public WebDriver driver;
+    public Wait wait;
+
+    public CreateDriver(WebDriver driver){
+        this.driver = driver;
+        PageFactory.initElements(driver, this);
+        wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+    }
 
     public WebDriver createWebdriverGoogleChrome() {
 

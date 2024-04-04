@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-import pages.Steam.HomeSteamPO;
+import Pages.HomeSteamPO;
 
 public class T005M4A4STest {
 
@@ -14,7 +14,7 @@ public class T005M4A4STest {
 
     @BeforeMethod
     public void setUp() {
-        CreateDriver cd = new CreateDriver();
+        CreateDriver cd = new CreateDriver(driver);
         driver = cd.createWebdriverFirexox();
 
         driver.get("https://steamcommunity.com/market");
