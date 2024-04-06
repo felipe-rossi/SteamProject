@@ -1,5 +1,6 @@
 package tests;
 
+import Steps.SteamSteps;
 import Suporte.CreateDriver;
 import Suporte.Screenshot;
 import org.junit.*;
@@ -14,11 +15,14 @@ public class T001KnivesTest {
 
    private WebDriver driver;
     Screenshot screenshot;
+     SteamSteps steamSteps;
+
 
     @BeforeMethod
     public void setUp() {
         CreateDriver cd = new CreateDriver(driver);
         driver = cd.createWebdriverGoogleChrome();
+        steamSteps = new SteamSteps(driver);
         driver.get("https://steamcommunity.com/market");
         screenshot = new Screenshot(driver);
 
@@ -27,11 +31,11 @@ public class T001KnivesTest {
 
     @Test
     public void validarPrecoDasFacas(){
-            boolean comprarSkin =
-           new HomeSteamPO(driver)
+        boolean comprarSkin =
+        steamSteps
             .clicarNaOpcaoMercadoComunidade()
             .escolherTipoDeProdutoQueVaiSerPesquisa("tag_CSGO_Type_Knife") //tag_weapon_ak47 tag_730_Type_CSGO_Type_Knife
-           .ordernarPeloMenorPreco()
+            .ordernarPeloMenorPreco()
             .validarValorDaSkin();
         Assert.assertFalse(comprarSkin);
 
