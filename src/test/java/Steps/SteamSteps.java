@@ -86,19 +86,22 @@ public class SteamSteps extends SteamMaps {
         comprarSkin = false;
 
         nomeItem = nomeSkinMaisBarata.getText();
-        System.out.println("Nome da Skin: " + nomeSkinMaisBarata.getText());
-        System.out.println("Link da imagem da Skin: " + listaImagens.get(0).getAttribute("src"));
 
         valorItem = listaPrecos.get(0).getText();
-        System.out.println("Skin mais barata custa: " + listaPrecos.get(0).getText());
 
         linkItem = listaLinks.get(0).getAttribute("href");
-        System.out.println("Link para comprar: " + listaLinks.get(0).getAttribute("href"));
 
         valorItemTratado = tratarValorSkin(listaPrecos.get(0).getText());
 
         if (tratarValorSkin(listaPrecos.get(0).getText()) <= 3000){
             System.out.println("Valor da Skin é MENOR OU IGUAL que 30 dolares (150 reais)");
+
+            System.out.println("Nome da Skin: " + nomeSkinMaisBarata.getText());
+            System.out.println("Link da imagem da Skin: " + listaImagens.get(0).getAttribute("src"));
+
+            System.out.println("Skin mais barata custa: " + listaPrecos.get(0).getText());
+
+            System.out.println("Link para comprar: " + listaLinks.get(0).getAttribute("href"));
 
             EnviarEmail.enviarEmail(nomeItem,valorItem,linkItem);
 
