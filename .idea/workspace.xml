@@ -8,11 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ccebf2e8-52ed-46c2-b2a6-3814c680d9ca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/SteamSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/ultimo_erro.png" beforeDir="false" afterPath="$PROJECT_DIR$/Screenshots/ultimo_erro.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/T001KnivesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/T001KnivesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/T001KnivesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/T001KnivesTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/chromedriver.exe" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,12 +25,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "felipe-rossi"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;felipe-rossi&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -49,9 +45,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2QDLycI43R0dcGSVnhhDliZP58v" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -69,7 +65,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/ProjetoSteam/SteamProject",
+    "last_opened_file_path": "C:/Users/Rossi/Documents/SteamProject",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2551724",
@@ -86,11 +82,11 @@
       <recent name="C:\Projeto Steam\SteamProject" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Rossi\Documents\SteamProject" />
       <recent name="D:\ProjetoSteam\SteamProject\src\test\java" />
       <recent name="D:\ProjetoSteam\SteamProject" />
       <recent name="D:\ProjetoSteam\SteamProject\drivers" />
       <recent name="C:\Users\felip\Documents\SteamProject" />
-      <recent name="C:\Users\felip\DevOps\tasks-functional-tests\ProjetoSteam\src" />
     </key>
   </component>
   <component name="RunManager" selected="TestNG.T001KnivesTest.validarPrecoDasFacas">
@@ -222,13 +218,6 @@
         <item itemvalue="TestNG.T003Ak47Test" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-19.0.2-corretto-19.0.2-4caba194b151-48ba4555" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
