@@ -8,7 +8,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ccebf2e8-52ed-46c2-b2a6-3814c680d9ca" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Commons/SteamCommons.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Commons/SteamCommons.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Maps/SteamMaps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Maps/SteamMaps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/BuscarNoMercadoDaComunidadePO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/BuscarNoMercadoDaComunidadePO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/HomeSteamPO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/HomeSteamPO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/MercadoComunidadePO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/MercadoComunidadePO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/SteamSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/SteamSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Suporte/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Suporte/BasePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Suporte/CreateDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Suporte/CreateDriver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Suporte/EnviarEmail.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Suporte/EnviarEmail.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Suporte/GerarDataAtual.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Suporte/GerarDataAtual.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Suporte/Screenshot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Suporte/Screenshot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/T001KnivesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/T001KnivesTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/T002GlovesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/T002GlovesTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/T003Ak47Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/T003Ak47Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/T004AwpTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/T004AwpTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/T005M4A4STest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/T005M4A4STest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +76,7 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "JUnit.T001KnivesTest.validarPrecoDasFacas.executor": "Coverage",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -66,11 +85,11 @@
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Rossi/Documents/SteamProject",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2551724",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "editor.preferences.tabs"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -120,6 +139,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="T001KnivesTest.validarPrecoDasFacas" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProjetoSteam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.T001KnivesTest" />
+      <option name="METHOD_NAME" value="validarPrecoDasFacas" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="T001KnivesTest.validarPrecoDasFacas" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ProjetoSteam" />
       <extension name="coverage">
@@ -132,23 +167,6 @@
       <option name="MAIN_CLASS_NAME" value="tests.T001KnivesTest" />
       <option name="METHOD_NAME" value="validarPrecoDasFacas" />
       <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="T003Ak47Test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ProjetoSteam" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.T003Ak47Test" />
-      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -212,10 +230,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.T001KnivesTest.validarPrecoDasFacas" />
+        <item itemvalue="JUnit.T001KnivesTest.validarPrecoDasFacas" />
         <item itemvalue="TestNG.T003Ak47Test.validar001PrecoDaAk47RaioX" />
         <item itemvalue="TestNG.T005M4A4STest.validar002PrecoDaM4A4SPerigoIminente" />
         <item itemvalue="TestNG.T004AwpTest.validar001PrecoDaAwpDegrade" />
-        <item itemvalue="TestNG.T003Ak47Test" />
       </list>
     </recent_temporary>
   </component>
